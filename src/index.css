@@ -1,0 +1,44 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: 0;
+}
+html {
+  font-size: 100%;
+}
+body {
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "Courier New", Courier, monospace;
+  width: 94vw;
+  font-weight: bold;
+}
+.color-container {
+  display: flex;
+  padding: 8px 16px;
+  border-radius: 8px;
+  width: 100%;
+  cursor: pointer;
+}
+.color-hexword {
+}
+.color-word {
+  padding-left: 1ch;
+}
+.clipboard-btn {
+  margin-left: auto;
+
+  height: 2rem;
+}
+.clipboard-img {
+  height: 100%;
+}
+.colors-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+  justify-items: center;
+  gap: 0.5rem;
+}
