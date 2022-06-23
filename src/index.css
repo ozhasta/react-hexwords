@@ -15,7 +15,7 @@ body {
   text-align: center;
 }
 .App {
-  padding: 5vw;
+  padding: 4vh 5vw;
 }
 .color-container {
   display: flex;

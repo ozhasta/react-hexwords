@@ -5,15 +5,21 @@ import lightOrDark from "./utils/lightOrDark"
 function App() {
   const [selectedColor, setSelectedColor] = useState("FFF")
 
-  // console.log("render")
+  function handleClick(e) {
+    setSelectedColor(e.target.dataset.color)
+  }
+  console.log("render")
   return (
-    <div className="App" style={{ backgroundColor: "#AC1512", color: lightOrDark(selectedColor) }}>
+    <div
+      className="App"
+      style={{ backgroundColor: selectedColor, color: `#${lightOrDark(selectedColor)}` }}
+    >
       <header>
         <h1>TURKISH HEXWORDS</h1>
-        <h2>Why bother with a random green when you can choose to be a #BADA55!</h2>
-        <input placeholder="search" type="text" name="search-word" id="search-word" />
+        <h2>Akılda kalıcı ve #CAFCAF'lı renkler varken, neden rastgele renk seçiyorsunuz ki?</h2>
+        <input placeholder="Renk veya kelime ara" type="text" name="search-word" id="search-word" />
       </header>
-      <WordElements />
+      <WordElements handleClick={(e) => handleClick(e)} />
     </div>
   )
 }

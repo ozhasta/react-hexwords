@@ -2,8 +2,9 @@
 https://gist.github.com/stla/00d8d78c7daa8b774c484e5b6f5758ce
 This code was taken from the url above and edited for my own use.
 According to this formula, if the color for the background is dark,
-the function returns "white" as a string. So I can use it as text color,
-vice versa, it returns "black" for light colors.
+the function returns "FFF" (white) as a string. So I can use it as text color,
+vice versa, it returns "000" (black) for light background colors.
+White text on dark backgrounds, black text on light backgrounds.
  */
 
 export default function lightOrDark(color) {
@@ -16,8 +17,8 @@ export default function lightOrDark(color) {
   const hsp = Math.sqrt(0.299 * (r * r) + 0.587 * (g * g) + 0.114 * (b * b))
 
   if (hsp > 127.5) {
-    return "black"
+    return "000"
   } else {
-    return "white"
+    return "FFF"
   }
 }
