@@ -3,16 +3,17 @@ import WordElements from "./WordElements"
 import lightOrDark from "./utils/lightOrDark"
 
 function App() {
-  const [selectedColor, setSelectedColor] = useState("FFF")
+  const [selectedColor, setSelectedColor] = useState("#ABCDEF")
 
   function handleClick(e) {
     setSelectedColor(e.target.dataset.color)
   }
-  console.log("render")
+  // console.log("render")
+  // FIXME: remove # from selected color
   return (
     <div
       className="App"
-      style={{ backgroundColor: selectedColor, color: `#${lightOrDark(selectedColor)}` }}
+      style={{ backgroundColor: selectedColor, color: `${lightOrDark(selectedColor)}` }}
     >
       <header>
         <h1>TURKISH HEXWORDS</h1>
