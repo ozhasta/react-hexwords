@@ -1,5 +1,7 @@
 import { useState } from "react"
 import lightOrDark from "./utils/lightOrDark"
+import clipboardWhite from "./images/clipboard-white.png"
+import clipboardBlack from "./images/clipboard-black.png"
 
 export default function WordElement({ hex, word, meanings, handleColorChange, handleDialog }) {
   function removeAlphaFrom(hex) {
@@ -21,6 +23,7 @@ export default function WordElement({ hex, word, meanings, handleColorChange, ha
 
   const hexColorWithoutAlpha = removeAlphaFrom(hex)
   const whiteOrBlack = lightOrDark(hexColorWithoutAlpha)
+  const clipboardImageSrc = whiteOrBlack === "FFF" ? clipboardWhite : clipboardBlack
 
   return (
     <div
@@ -43,12 +46,7 @@ export default function WordElement({ hex, word, meanings, handleColorChange, ha
         <div className="color-word">{word}</div>
       </div>
       <div className="clipboard-btn">
-        <img
-          className="clipboard-img"
-          src={`clipboard-${whiteOrBlack}.png`}
-          alt="copy"
-          title="copy"
-        />
+        <img className="clipboard-img" src={`${clipboardImageSrc}`} alt="copy" title="copy" />
       </div>
     </div>
   )
