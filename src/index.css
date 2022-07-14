@@ -6,37 +6,63 @@
   box-sizing: border-box;
   border: 0;
 }
+
 html {
   font-size: 100%;
 }
+
 body {
   font-family: "Courier New", Courier, monospace;
   font-weight: bold;
   text-align: center;
 }
+
 .App {
   padding: 4vh 5vw;
 }
+
 .color-container {
   display: flex;
+  justify-content: space-between;
+
   padding: 8px 16px;
   border-radius: 8px;
   width: 100%;
   cursor: pointer;
 }
 
+/* Color Info Dialog */
+.color-info-btn {
+  background-color: inherit;
+  color: inherit;
+  font-size: 1.5rem;
+}
+
+dialog {
+  max-width: 90vw;
+  border: 1px solid black;
+}
+
+dialog::backdrop {
+  background: black;
+  opacity: 0.5;
+}
+
+/* color container */
 .color-word {
   margin-top: 0.1rem;
   padding-left: 1ch;
 }
-.clipboard-btn {
-  margin-left: auto;
 
+.clipboard-btn {
   height: 2rem;
 }
+
 .clipboard-img {
   height: 100%;
 }
+
+/* HomePage */
 .colors-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));

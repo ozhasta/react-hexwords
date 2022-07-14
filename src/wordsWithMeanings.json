@@ -1,7 +1,8 @@
 [
   {
+    "id": 0,
     "word": "ABA",
-    "hex": "#ABA",
+    "hex": "ABA",
     "meanings": [
       "Abla",
       "Anne",
@@ -13,35 +14,41 @@
     ]
   },
   {
+    "id": 1,
     "word": "ABASIZ",
-    "hex": "#ABA512",
+    "hex": "ABA512",
     "meanings": ["Aba giymemiş olan"]
   },
   {
+    "id": 2,
     "word": "ABDEST",
-    "hex": "#ABDE57",
+    "hex": "ABDE57",
     "meanings": [
       "Müslümanların, belli ibadetleri yapabilmek için bir düzen içerisinde bazı organları yıkayıp bazılarını mesh etme yoluyla yaptıkları arınma"
     ]
   },
   {
+    "id": 3,
     "word": "ABE",
-    "hex": "#ABE",
+    "hex": "ABE",
     "meanings": ["Seslenmek ve dikkati çekmek için özellikle Rumeli'de kullanılan bir söz"]
   },
   {
+    "id": 4,
     "word": "ABİ",
-    "hex": "#AB1",
+    "hex": "AB1",
     "meanings": ["ağabey"]
   },
   {
+    "id": 5,
     "word": "ACE",
-    "hex": "#ACE",
+    "hex": "ACE",
     "meanings": ["servis sayısı"]
   },
   {
+    "id": 6,
     "word": "ACI",
-    "hex": "#AC1",
+    "hex": "AC1",
     "meanings": [
       "Bazı maddelerin dilde bıraktığı yakıcı duyu, tatlı karşıtı",
       "Tadı bu nitelikte olan",
@@ -53,8 +60,9 @@
     ]
   },
   {
+    "id": 7,
     "word": "ACISIZ",
-    "hex": "#AC1512",
+    "hex": "AC1512",
     "meanings": [
       "Tadı acı olmayan",
       "Ağrı, sızı duyulmayan",
@@ -62,13 +70,15 @@
     ]
   },
   {
+    "id": 8,
     "word": "ACITIŞ",
-    "hex": "#AC1715",
+    "hex": "AC1715",
     "meanings": ["Acıtma işi"]
   },
   {
+    "id": 9,
     "word": "ADA",
-    "hex": "#ADA",
+    "hex": "ADA",
     "meanings": [
       "Deniz veya göl suları ile çevrilmiş küçük kara parçası, cezire",
       "Tali yoldan ana yola güvenli çıkışı sağlamak için tali yolun sağ tarafına yapılan, çizgilerle ayrılmış bölüm",
@@ -77,28 +87,33 @@
     ]
   },
   {
+    "id": 10,
     "word": "ADATIŞ",
-    "hex": "#ADA715",
+    "hex": "ADA715",
     "meanings": ["Adatma işi"]
   },
   {
+    "id": 11,
     "word": "ADİ",
-    "hex": "#AD1",
+    "hex": "AD1",
     "meanings": ["Değersiz, kötü, sıradan, hiçbir özelliği olmayan", "Aşağılık, alçak", "Bayağı"]
   },
   {
+    "id": 12,
     "word": "AFİ",
-    "hex": "#AF1",
+    "hex": "AF1",
     "meanings": ["Gösteriş, çalım, caka"]
   },
   {
+    "id": 13,
     "word": "AFT",
-    "hex": "#AF7",
+    "hex": "AF7",
     "meanings": ["Ağız içinde görülen zemini beyaz, ağrılı küçük yara"]
   },
   {
+    "id": 14,
     "word": "AĞA",
-    "hex": "#A6A",
+    "hex": "A6A",
     "meanings": [
       "Geniş toprakları olan, sözü geçen, varlıklı kimse",
       "Halk arasında sayılan ve sözü geçen erkeklere verilen unvan",
@@ -110,56 +125,65 @@
     ]
   },
   {
+    "id": 15,
     "word": "AĞDACI",
-    "hex": "#A6DAC1",
+    "hex": "A6DAC1",
     "meanings": [
       "Şeker, tatlı ve helva yapımında ağda hazırlayan işçi",
       "Ağda ile vücuttaki fazla tüyleri veya kılları temizlemeyi meslek edinmiş kimse"
     ]
   },
   {
+    "id": 16,
     "word": "AĞI",
-    "hex": "#A61",
+    "hex": "A61",
     "meanings": ["Zehir"]
   },
   {
+    "id": 17,
     "word": "AİT",
-    "hex": "#A17",
+    "hex": "A17",
     "meanings": ["İlgilendiren, ilişkin, ilişik, ilgili"]
   },
   {
+    "id": 18,
     "word": "ASA",
-    "hex": "#A5A",
+    "hex": "A5A",
     "meanings": [
       "Bazı ülkelerde, hükümdarların, mareşallerin, din adamlarının güç sembolü olarak törenlerde taşıdıkları bir tür ağaç veya metalden değnek",
       "İhtiyarların baston yerine kullandıkları uzun sopa"
     ]
   },
   {
+    "id": 19,
     "word": "ASBEST",
-    "hex": "#A5BE57",
+    "hex": "A5BE57",
     "meanings": [
       "Tremolitin bozulmasından oluşan, lifli, kırılmadan bükülebilen ve ateşte niteliği değişmeyen bir mineral, taş pamuğu, kaya lifi"
     ]
   },
   {
+    "id": 20,
     "word": "ASETAT",
-    "hex": "#A5E7A7",
+    "hex": "A5E7A7",
     "meanings": ["Asetik asidin tuzu veya esteri, saydam"]
   },
   {
+    "id": 21,
     "word": "ASI",
-    "hex": "#A51",
+    "hex": "A51",
     "meanings": ["Asma işi", "Afiş"]
   },
   {
+    "id": 22,
     "word": "ASİ",
-    "hex": "#A51",
+    "hex": "A51",
     "meanings": ["Başkaldırıcı", "Dikbaşlı"]
   },
   {
+    "id": 23,
     "word": "AST",
-    "hex": "#A57",
+    "hex": "A57",
     "meanings": [
       "Alt",
       "Birinin buyruğu altında olan görevli, madun",
@@ -168,8 +192,9 @@
     ]
   },
   {
+    "id": 24,
     "word": "AŞI",
-    "hex": "#A51",
+    "hex": "A51",
     "meanings": [
       "Birtakım hastalıklara karşı bağışıklık sağlamak için vücuda verilen, o hastalığın mikrobuyla hazırlanmış eriyik",
       "Bu eriyiğin uygulanması",
@@ -179,13 +204,15 @@
     ]
   },
   {
+    "id": 25,
     "word": "AŞISIZ",
-    "hex": "#A51512",
+    "hex": "A51512",
     "meanings": ["Herhangi bir hastalığa karşı aşılanmamış olan (kimse)", "Aşı yapılmamış (bitki)"]
   },
   {
+    "id": 26,
     "word": "ATA",
-    "hex": "#A7A",
+    "hex": "A7A",
     "meanings": [
       "Baba",
       "Dedelerden ve büyükbabalardan her biri",
@@ -193,64 +220,75 @@
     ]
   },
   {
+    "id": 27,
     "word": "ATBAŞI",
-    "hex": "#A7BA51",
+    "hex": "A7BA51",
     "meanings": ["Eşit, birlikte, başa baş"]
   },
   {
+    "id": 28,
     "word": "ATE",
-    "hex": "#A7E",
+    "hex": "A7E",
     "meanings": ["Tanrıtanımaz"]
   },
   {
+    "id": 29,
     "word": "ATEİST",
-    "hex": "#A7E157",
+    "hex": "A7E157",
     "meanings": ["Tanrıtanımaz"]
   },
   {
+    "id": 30,
     "word": "ATIFET",
-    "hex": "#A71FE7",
+    "hex": "A71FE7",
     "meanings": [
       "İyilik, bağış, kayra, lütuf, ihsan, inayet",
       "Karşılık beklemeden gösterilen sevgi"
     ]
   },
   {
+    "id": 31,
     "word": "ATİ",
-    "hex": "#A71",
+    "hex": "A71",
     "meanings": ["Gelecek"]
   },
   {
+    "id": 32,
     "word": "AZA",
-    "hex": "#A2A",
+    "hex": "A2A",
     "meanings": ["Üye", "Vücut parçası, organ"]
   },
   {
+    "id": 33,
     "word": "AZI",
-    "hex": "#A21",
+    "hex": "A21",
     "meanings": [
       "Köpek dişlerinden sonra içeriye doğru, alt ve üst çenenin iki yanında beşer tane bulunan ve yiyecekleri öğütmeye yarayan dişlerin ortak adı, azı dişi, öğütücü diş",
       "Öküz arabalarında ön ve arka yastıkları dingile bağlayan ağaç çivi"
     ]
   },
   {
+    "id": 34,
     "word": "BABACA",
-    "hex": "#BABACA",
+    "hex": "BABACA",
     "meanings": ["Baba gibi, babaya yakışır"]
   },
   {
+    "id": 35,
     "word": "BABACI",
-    "hex": "#BABAC1",
+    "hex": "BABAC1",
     "meanings": ["Babacılık yanlısı olan, paternalist"]
   },
   {
+    "id": 36,
     "word": "BAD",
-    "hex": "#BAD",
+    "hex": "BAD",
     "meanings": ["Rüzgâr"]
   },
   {
+    "id": 37,
     "word": "BAĞ",
-    "hex": "#BA6",
+    "hex": "BA6",
     "meanings": [
       "Bir şeyi başka bir şeye veya birçok şeyi topluca birbirine tutturmak için kullanılan ip, sicim, şerit, tel vb. düğümlenebilir nesne",
       "Sargı",
@@ -264,28 +302,33 @@
     ]
   },
   {
+    "id": 38,
     "word": "BAĞDAŞ",
-    "hex": "#BA6DA5",
+    "hex": "BA6DA5",
     "meanings": ["Sağ ayağı sol uyluğun, sol ayağı sağ uyluğun altına alarak oturma biçimi"]
   },
   {
+    "id": 39,
     "word": "BAĞDAT",
-    "hex": "#BA6DA7",
+    "hex": "BA6DA7",
     "meanings": ["`Karnını doyurmak` anlamındaki Bağdat'ı tamir etmek deyiminde geçen bir söz"]
   },
   {
+    "id": 40,
     "word": "BAĞICI",
-    "hex": "#BA61C1",
+    "hex": "BA61C1",
     "meanings": ["Büyücü", "Baştan çıkarıcı"]
   },
   {
+    "id": 41,
     "word": "BAĞSIZ",
-    "hex": "#BA6512",
+    "hex": "BA6512",
     "meanings": ["Bağı bulunmayan"]
   },
   {
+    "id": 42,
     "word": "BAS",
-    "hex": "#BA5",
+    "hex": "BA5",
     "meanings": [
       "En kalın erkek sesi",
       "Sesi böyle olan sanatçı",
@@ -293,13 +336,15 @@
     ]
   },
   {
+    "id": 43,
     "word": "BASICI",
-    "hex": "#BA51C1",
+    "hex": "BA51C1",
     "meanings": ["Bası işi yapan kimse"]
   },
   {
+    "id": 44,
     "word": "BAŞ",
-    "hex": "#BA5",
+    "hex": "BA5",
     "meanings": [
       "İnsan ve hayvanlarda beyin, göz, kulak, burun, ağız vb. organları kapsayan, vücudun üst veya önünde bulunan bölüm, kafa, ser",
       "Bir topluluğu yöneten kimse",
@@ -318,57 +363,67 @@
     ]
   },
   {
+    "id": 45,
     "word": "BAŞODA",
-    "hex": "#BA50DA",
+    "hex": "BA50DA",
     "meanings": [
       "Geleneksel Türk evinde özellikle konukların ağırlandığı büyük ve özenli bir biçimde döşenmiş oda"
     ]
   },
   {
+    "id": 46,
     "word": "BAŞSIZ",
-    "hex": "#BA5512",
+    "hex": "BA5512",
     "meanings": ["Başı olmayan", "Yöneticisi, başkanı olmayan"]
   },
   {
+    "id": 47,
     "word": "BAT",
-    "hex": "#BA7",
+    "hex": "BA7",
     "meanings": [
       "Kurşun boruların ağzını açmakta kullanılan, şimşirden yapılmış, ucu sivri bir takoz türü"
     ]
   },
   {
+    "id": 48,
     "word": "BATICI",
-    "hex": "#BA71C1",
+    "hex": "BA71C1",
     "meanings": ["Batı kültür ve medeniyetinden yana olan, Garpçı"]
   },
   {
+    "id": 49,
     "word": "BATSAT",
-    "hex": "#BA75A7",
+    "hex": "BA75A7",
     "meanings": ["Ara sıra, seyrek olarak, tek tük"]
   },
   {
+    "id": 50,
     "word": "BAZ",
-    "hex": "#BA2",
+    "hex": "BA2",
     "meanings": ["Temel", "Bir asitle birleştiğinde bir tuz oluşturan madde"]
   },
   {
+    "id": 51,
     "word": "BAZISI",
-    "hex": "#BA2151",
+    "hex": "BA2151",
     "meanings": ["Birtakımı, kimi, kimisi"]
   },
   {
+    "id": 52,
     "word": "BED",
-    "hex": "#BED",
+    "hex": "BED",
     "meanings": ["Kötü, çirkin, tuhaf"]
   },
   {
+    "id": 53,
     "word": "BESİCİ",
-    "hex": "#BE51C1",
+    "hex": "BE51C1",
     "meanings": ["Sığır, davar vb. hayvanları besleyerek semirten, satan kimse"]
   },
   {
+    "id": 54,
     "word": "BEŞ",
-    "hex": "#BE5",
+    "hex": "BE5",
     "meanings": [
       "Dörtten sonra gelen sayının adı",
       "Bu sayıyı gösteren 5 ve V rakamlarının adı",
@@ -377,21 +432,24 @@
     ]
   },
   {
+    "id": 55,
     "word": "BEŞTAŞ",
-    "hex": "#BE57A5",
+    "hex": "BE57A5",
     "meanings": ["Beş tane taşla oynanan bir çocuk oyunu türü"]
   },
   {
+    "id": 56,
     "word": "BET",
-    "hex": "#BE7",
+    "hex": "BE7",
     "meanings": [
       "Beniz kelimesi ile birlikte, `yüz rengi` anlamında ikileme oluşturan bir söz",
       "Bereket kelimesi ile birlikte `bolluk` anlamında ikileme oluşturan bir söz"
     ]
   },
   {
+    "id": 57,
     "word": "BEZ",
-    "hex": "#BE2",
+    "hex": "BE2",
     "meanings": [
       "Pamuk veya keten ipliğinden yapılan dokuma, çaput",
       "Pamuktan, düz dokuma",
@@ -402,30 +460,35 @@
     ]
   },
   {
+    "id": 58,
     "word": "BEZZAZ",
-    "hex": "#BE22A2",
+    "hex": "BE22A2",
     "meanings": ["Kumaş alıp satan kimse, manifaturacı"]
   },
   {
+    "id": 59,
     "word": "BIZBIZ",
-    "hex": "#B12B12",
+    "hex": "B12B12",
     "meanings": ["Davula sol elle vurulan ince değnek"]
   },
   {
+    "id": 60,
     "word": "BİS",
-    "hex": "#B15",
+    "hex": "B15",
     "meanings": ["İkinci kez"]
   },
   {
+    "id": 61,
     "word": "BİT",
-    "hex": "#B17",
+    "hex": "B17",
     "meanings": [
       "Yarım kanatlılar alt takımına giren, insan ve memeli hayvanların vücudunda asalak olarak yaşayan böcek, kehle (Pediculus)"
     ]
   },
   {
+    "id": 62,
     "word": "BİZ",
-    "hex": "#B12",
+    "hex": "B12",
     "meanings": [
       "Çokluk birinci kişiyi gösteren söz",
       "Bazen teklik birinci kişi zamiri `ben` yerine kullanılan bir söz",
@@ -435,44 +498,51 @@
     ]
   },
   {
+    "id": 63,
     "word": "BİZSİZ",
-    "hex": "#B12512",
+    "hex": "B12512",
     "meanings": ["Biz olmaksızın"]
   },
   {
+    "id": 64,
     "word": "BİZZAT",
-    "hex": "#B122A7",
+    "hex": "B122A7",
     "meanings": ["Aracısız, kendisi olarak"]
   },
   {
+    "id": 65,
     "word": "BOA",
-    "hex": "#B0A",
+    "hex": "B0A",
     "meanings": [
       "Boa yılanı",
       "Kadınların boyunlarına aldıkları yılan biçiminde dar ve uzun kürk, boyun kürkü"
     ]
   },
   {
+    "id": 66,
     "word": "BOĞADA",
-    "hex": "#B06ADA",
+    "hex": "B06ADA",
     "meanings": [
       "Küllü veya sodalı su ile çamaşır yıkama",
       "Yıkanmak üzere hazırlanmış çamaşırın üzerine sıcak kül suyu süzme işi"
     ]
   },
   {
+    "id": 67,
     "word": "BOĞASI",
-    "hex": "#B06A51",
+    "hex": "B06A51",
     "meanings": ["İnce bez"]
   },
   {
+    "id": 68,
     "word": "BOĞATA",
-    "hex": "#B06A7A",
+    "hex": "B06A7A",
     "meanings": ["Ağaçtan yapılmış, yuvarlak, delikli makara"]
   },
   {
+    "id": 69,
     "word": "BOŞ",
-    "hex": "#B05",
+    "hex": "B05",
     "meanings": [
       "İçinde, üstünde hiç kimse veya hiçbir şey bulunmayan, dolu karşıtı",
       "Görevlisi olmayan (iş, görev), münhal",
@@ -485,8 +555,9 @@
     ]
   },
   {
+    "id": 70,
     "word": "BOT",
-    "hex": "#B07",
+    "hex": "B07",
     "meanings": [
       "Küçük gemi",
       "Ağaç, plastik veya kauçuktan yapılmış küçük sandal",
@@ -494,8 +565,9 @@
     ]
   },
   {
+    "id": 71,
     "word": "BOZ",
-    "hex": "#B02",
+    "hex": "B02",
     "meanings": [
       "Açık toprak rengi",
       "Kül rengi, gri",
@@ -504,23 +576,27 @@
     ]
   },
   {
+    "id": 72,
     "word": "BOZACI",
-    "hex": "#B02AC1",
+    "hex": "B02AC1",
     "meanings": ["Boza yapan veya satan kimse"]
   },
   {
+    "id": 73,
     "word": "BÖĞ",
-    "hex": "#B06",
+    "hex": "B06",
     "meanings": ["Eklem bacaklılardan, soluk sarı renkli, zehirli bir tür örümcek"]
   },
   {
+    "id": 74,
     "word": "CAFCAF",
-    "hex": "#CAFCAF",
+    "hex": "CAFCAF",
     "meanings": ["Gösteriş, şatafat", "Ağız kalabalığı ile bir şeyi elde eden, şirret"]
   },
   {
+    "id": 75,
     "word": "CAĞ",
-    "hex": "#CA6",
+    "hex": "CA6",
     "meanings": [
       "Parmaklık, korkuluk",
       "Büyük bez veya deri torba, cav",
@@ -529,63 +605,74 @@
     ]
   },
   {
+    "id": 76,
     "word": "CAZ",
-    "hex": "#CA2",
+    "hex": "CA2",
     "meanings": [
       "Başlangıçta Kuzey Amerika zencilerine aitken sonraları bütün dünyada benimsenen bir müzik türü",
       "Bu müziği çalan orkestra"
     ]
   },
   {
+    "id": 77,
     "word": "CAZİBE",
-    "hex": "#CA21BE",
+    "hex": "CA21BE",
     "meanings": ["Çekicilik", "Çekim"]
   },
   {
+    "id": 78,
     "word": "CAZSIZ",
-    "hex": "#CA2512",
+    "hex": "CA2512",
     "meanings": ["Cazı olmayan"]
   },
   {
+    "id": 79,
     "word": "CEBECİ",
-    "hex": "#CEBEC1",
+    "hex": "CEBEC1",
     "meanings": [
       "Yeniçeri ordusunda silah yapan, onaran ve bakımı ile görevli bulunan, savaşta ordunun silah ve cephanesini ulaştıran yaya kapıkulu ocaklarından bir sınıf asker"
     ]
   },
   {
+    "id": 80,
     "word": "CET",
-    "hex": "#CE7",
+    "hex": "CE7",
     "meanings": ["Dede, büyükbaba, ata"]
   },
   {
+    "id": 81,
     "word": "CIDAĞI",
-    "hex": "#C1DA61",
+    "hex": "C1DA61",
     "meanings": ["Atın iki omzunun arası", "Derin, işleyen yara, büyük çıban"]
   },
   {
+    "id": 82,
     "word": "CIS",
-    "hex": "#C15",
+    "hex": "C15",
     "meanings": ["Çocukları ateşe ve tehlikeli şeylere karşı uyarırken söylenen bir söz"]
   },
   {
+    "id": 83,
     "word": "CIZ",
-    "hex": "#C12",
+    "hex": "C12",
     "meanings": ["Çocuk dilinde ateş", "Kızgın yağın içine bir şey atıldığında çıkan ses"]
   },
   {
+    "id": 84,
     "word": "CIZBIZ",
-    "hex": "#C12B12",
+    "hex": "C12B12",
     "meanings": ["Izgarada pişirilmiş (et)"]
   },
   {
+    "id": 85,
     "word": "DADACI",
-    "hex": "#DADAC1",
+    "hex": "DADAC1",
     "meanings": ["Dadacılık akımına bağlı olan, Dadaist"]
   },
   {
+    "id": 86,
     "word": "DAĞ",
-    "hex": "#DA6",
+    "hex": "DA6",
     "meanings": [
       "Yer kabuğunun çıkıntılı, yüksek, eğimli yamaçlarıyla çevresine hâkim ve oldukça geniş bir alana yayılan bölümü",
       "Kızgın bir demirle vurulan damga, nişan",
@@ -594,38 +681,45 @@
     ]
   },
   {
+    "id": 87,
     "word": "DAZ",
-    "hex": "#DA2",
+    "hex": "DA2",
     "meanings": ["Dazlak", "Çıplak (toprak)"]
   },
   {
+    "id": 88,
     "word": "DEBBAĞ",
-    "hex": "#DEBBA6",
+    "hex": "DEBBA6",
     "meanings": ["Sepici"]
   },
   {
+    "id": 89,
     "word": "DEF",
-    "hex": "#DEF",
+    "hex": "DEF",
     "meanings": ["Savma"]
   },
   {
+    "id": 90,
     "word": "DEFAAT",
-    "hex": "#DEFAA7",
+    "hex": "DEFAA7",
     "meanings": ["Kereler, kezler"]
   },
   {
+    "id": 91,
     "word": "DESİSE",
-    "hex": "#DE515E",
+    "hex": "DE515E",
     "meanings": ["Aldatma, oyun, düzen, hile, entrika"]
   },
   {
+    "id": 92,
     "word": "DESSAS",
-    "hex": "#DE55A5",
+    "hex": "DE55A5",
     "meanings": ["Düzenci"]
   },
   {
+    "id": 93,
     "word": "DIŞ",
-    "hex": "#D15",
+    "hex": "D15",
     "meanings": [
       "Herhangi bir cisim veya alanın sınırları içinde bulunmayan yer, hariç, iç karşıtı",
       "Bir konunun kapsamına girmeyen şey",
@@ -639,18 +733,21 @@
     ]
   },
   {
+    "id": 94,
     "word": "DIZDIZ",
-    "hex": "#D12D12",
+    "hex": "D12D12",
     "meanings": ["Ağustos böceklerinin çıkardığı ses", "Büve"]
   },
   {
+    "id": 95,
     "word": "DİBACE",
-    "hex": "#D1BACE",
+    "hex": "D1BACE",
     "meanings": ["Başlangıç, giriş, ön söz"]
   },
   {
+    "id": 96,
     "word": "DİŞ",
-    "hex": "#D15",
+    "hex": "D15",
     "meanings": [
       "Çene kemiklerinin üstüne dizili, ısırıp koparmaya ve çiğnemeye yarayan sert, beyaz organlardan her biri",
       "Çark, testere, tarak vb. çentikli şeylerdeki çıkıntıların her biri",
@@ -660,36 +757,42 @@
     ]
   },
   {
+    "id": 97,
     "word": "DİŞEĞİ",
-    "hex": "#D15E61",
+    "hex": "D15E61",
     "meanings": ["Taşları yontmak için kullanılan dişli bir tür çekiç"]
   },
   {
+    "id": 98,
     "word": "DİŞSİZ",
-    "hex": "#D15512",
+    "hex": "D15512",
     "meanings": ["Dişi olmayan"]
   },
   {
+    "id": 99,
     "word": "DİZ",
-    "hex": "#D12",
+    "hex": "D12",
     "meanings": [
       "Kaval, baldır ve uyluk kemiğinin birleştiği yer",
       "Oturulduğunda uyluğun üst yanı"
     ]
   },
   {
+    "id": 100,
     "word": "DİZİCİ",
-    "hex": "#D121C1",
+    "hex": "D121C1",
     "meanings": ["Dizgici"]
   },
   {
+    "id": 101,
     "word": "DOĞACI",
-    "hex": "#D06AC1",
+    "hex": "D06AC1",
     "meanings": ["Doğacılık yanlısı olan, natürist"]
   },
   {
+    "id": 102,
     "word": "DOZ",
-    "hex": "#D02",
+    "hex": "D02",
     "meanings": [
       "Bir ilacın bir defada veya bir günde alınması gereken miktarı, dozaj",
       "Bir maddenin bir birleşiğe, bir karışıma giren veya girmesi gereken belli miktarı, düze, dozaj",
@@ -697,13 +800,15 @@
     ]
   },
   {
+    "id": 103,
     "word": "DÖŞ",
-    "hex": "#D05",
+    "hex": "D05",
     "meanings": ["Göğüs, bağır", "Kaburga altı"]
   },
   {
+    "id": 104,
     "word": "EBE",
-    "hex": "#EBE",
+    "hex": "EBE",
     "meanings": [
       "Doğum işini yaptıran kadın",
       "Büyükanne, nine",
@@ -711,25 +816,29 @@
     ]
   },
   {
+    "id": 105,
     "word": "EBESİZ",
-    "hex": "#EBE512",
+    "hex": "EBE512",
     "meanings": ["Ebesi olmayan", "Ebe bulunmaksızın, ebe olmaksızın"]
   },
   {
+    "id": 106,
     "word": "ECE",
-    "hex": "#ECE",
+    "hex": "ECE",
     "meanings": ["Kraliçe", "Güzel kadın"]
   },
   {
+    "id": 107,
     "word": "ECZACI",
-    "hex": "#EC2AC1",
+    "hex": "EC2AC1",
     "meanings": [
       "Eczacılık fakültesinden mezun olarak eczacılık mesleğini yapmaya hak kazanmış kimse"
     ]
   },
   {
+    "id": 108,
     "word": "EDA",
-    "hex": "#EDA",
+    "hex": "EDA",
     "meanings": [
       "Davranış, tavır",
       "Naz, işve",
@@ -738,13 +847,15 @@
     ]
   },
   {
+    "id": 109,
     "word": "EDE",
-    "hex": "#EDE",
+    "hex": "EDE",
     "meanings": ["Ağabey"]
   },
   {
+    "id": 110,
     "word": "EDİ",
-    "hex": "#ED1",
+    "hex": "ED1",
     "meanings": [
       "İş yapma",
       "Yapılan iş",
@@ -752,110 +863,130 @@
     ]
   },
   {
+    "id": 111,
     "word": "EFE",
-    "hex": "#EFE",
+    "hex": "EFE",
     "meanings": ["Yiğit, özellikle Batı Anadolu köy yiğidi, zeybek", "Ağabey", "Kabadayı", "Kaptan"]
   },
   {
+    "id": 112,
     "word": "EGE",
-    "hex": "#E6E",
+    "hex": "E6E",
     "meanings": ["Veli"]
   },
   {
+    "id": 113,
     "word": "EGO",
-    "hex": "#E60",
+    "hex": "E60",
     "meanings": ["Ben"]
   },
   {
+    "id": 114,
     "word": "EGOİST",
-    "hex": "#E60157",
+    "hex": "E60157",
     "meanings": ["Bencil"]
   },
   {
+    "id": 115,
     "word": "EĞE",
-    "hex": "#E6E",
+    "hex": "E6E",
     "meanings": [
       "Göğüs kafesini oluşturan, arkadan omurgaya, önden de göğüs kemiğine eklenen uzun, yassı ve eğri kemiklerden her biri, kaburga",
       "Maden, tahta vb.nin pürüzlerini düzeltmek için kullanılan, üzeri pürtüklü, sert, ensiz, çelik araç"
     ]
   },
   {
+    "id": 116,
     "word": "EĞİTİŞ",
-    "hex": "#E61715",
+    "hex": "E61715",
     "meanings": ["Eğitme işi"]
   },
   {
+    "id": 117,
     "word": "ESASTA",
-    "hex": "#E5A57A",
+    "hex": "E5A57A",
     "meanings": ["Aslında"]
   },
   {
+    "id": 118,
     "word": "ETİ",
-    "hex": "#E71",
+    "hex": "E71",
     "meanings": ["Hitit"]
   },
   {
+    "id": 119,
     "word": "ETİBBA",
-    "hex": "#E71BBA",
+    "hex": "E71BBA",
     "meanings": ["Doktorlar, hekimler"]
   },
   {
+    "id": 120,
     "word": "EZA",
-    "hex": "#E2A",
+    "hex": "E2A",
     "meanings": ["Üzme, sıkıntı verme, üzgü"]
   },
   {
+    "id": 121,
     "word": "FAİZCİ",
-    "hex": "#FA12C1",
+    "hex": "FA12C1",
     "meanings": ["Tefeci"]
   },
   {
+    "id": 122,
     "word": "FAŞ",
-    "hex": "#FA5",
+    "hex": "FA5",
     "meanings": [
       "`Gizli olanı açığa vurmak, duyurmak, ortaya dökmek, dile vermek` anlamlarındaki faş etmek, `belli olmak, açıklanmak, ortaya çıkmak` anlamlarındaki faş olmak birleşik fiillerinde geçen bir söz"
     ]
   },
   {
+    "id": 123,
     "word": "FAŞİST",
-    "hex": "#FA5157",
+    "hex": "FA5157",
     "meanings": ["Faşizm yanlısı olan kimse, görüş vb"]
   },
   {
+    "id": 124,
     "word": "FAZ",
-    "hex": "#FA2",
+    "hex": "FA2",
     "meanings": ["Elektrik geriliminde evre"]
   },
   {
+    "id": 125,
     "word": "FECAAT",
-    "hex": "#FECAA7",
+    "hex": "FECAA7",
     "meanings": ["Çok acıklı, yürekler acısı durum"]
   },
   {
+    "id": 126,
     "word": "FES",
-    "hex": "#FE5",
+    "hex": "FE5",
     "meanings": [
       "Şapka yerine kullanılan, kırmızı, kalın çuhadan yapılmış, tepesinde püskülü olan, silindir biçiminde başlık"
     ]
   },
   {
+    "id": 127,
     "word": "FISFIS",
-    "hex": "#F15F15",
+    "hex": "F15F15",
     "meanings": ["Koku, ilaç vb. sıvıları püskürtmek için kullanılan araç"]
   },
   {
+    "id": 128,
     "word": "FİDECİ",
-    "hex": "#F1DEC1",
+    "hex": "F1DEC1",
     "meanings": ["Fide yetiştirip satan kimse"]
   },
   {
+    "id": 129,
     "word": "FİĞ",
-    "hex": "#F16",
+    "hex": "F16",
     "meanings": ["Baklagillerden, hayvan yemi olarak yetiştirilen bir bitki (Vicia sativa)"]
   },
   {
+    "id": 130,
     "word": "FİŞ",
-    "hex": "#F15",
+    "hex": "F15",
     "meanings": [
       "Prizden elektrik akımı almaya yarayan araç",
       "Alışverişlerde ödenen paranın miktarını, vergilerini, alışverişin yapıldığı tarihi gösteren belge",
@@ -866,13 +997,15 @@
     ]
   },
   {
+    "id": 131,
     "word": "FİŞSİZ",
-    "hex": "#F15512",
+    "hex": "F15512",
     "meanings": ["Fişi olmayan"]
   },
   {
+    "id": 132,
     "word": "FİT",
-    "hex": "#F17",
+    "hex": "F17",
     "meanings": [
       "Birini başkasına karşı kışkırtma",
       "Ödeşme",
@@ -881,35 +1014,41 @@
     ]
   },
   {
+    "id": 133,
     "word": "FOS",
-    "hex": "#F05",
+    "hex": "F05",
     "meanings": ["Çürük, temelsiz, boş, kof"]
   },
   {
+    "id": 134,
     "word": "FOSFAT",
-    "hex": "#F05FA7",
+    "hex": "F05FA7",
     "meanings": [
       "Yapay gübre ve bazı ilaçların yapımında kullanılan fosforik asidin tuzu veya esteri"
     ]
   },
   {
+    "id": 135,
     "word": "FOŞ",
-    "hex": "#F05",
+    "hex": "F05",
     "meanings": ["Suyun ani ve fazla miktarda dökülmesi sırasında çıkan ses"]
   },
   {
+    "id": 136,
     "word": "GAF",
-    "hex": "#6AF",
+    "hex": "6AF",
     "meanings": ["Yersiz, beceriksiz, zamansız söz veya davranış, patavatsızlık, pot"]
   },
   {
+    "id": 137,
     "word": "GAG",
-    "hex": "#6A6",
+    "hex": "6A6",
     "meanings": ["gülüt"]
   },
   {
+    "id": 138,
     "word": "GAZ",
-    "hex": "#6A2",
+    "hex": "6A2",
     "meanings": [
       "Tül",
       "Normal basınç ve sıcaklıkta olduğu gibi kalan, içinde bulunduğu kabın her yanına yayılma ve bu kabın iç yüzeyinin her noktasına basınç yapma özelliğinde olan akışkan madde",
@@ -920,39 +1059,45 @@
     ]
   },
   {
+    "id": 139,
     "word": "GAZEBO",
-    "hex": "#6A2EB0",
+    "hex": "6A2EB0",
     "meanings": ["Görüş sahası geniş olan balkon"]
   },
   {
+    "id": 140,
     "word": "GAZETE",
-    "hex": "#6A2E7E",
+    "hex": "6A2E7E",
     "meanings": [
       "Politika, ekonomi, kültür ve daha başka konularda haber ve bilgi vermek için yorumlu veya yorumsuz, her gün veya belirli zaman aralıklarıyla çıkarılan yayın",
       "Bu yayının yönetildiği, hazırlandığı, basıldığı yer"
     ]
   },
   {
+    "id": 141,
     "word": "GAZIŞI",
-    "hex": "#6A2151",
+    "hex": "6A2151",
     "meanings": ["Termik etki olmaksızın kendiliğinden görülen ışık"]
   },
   {
+    "id": 142,
     "word": "GAZSIZ",
-    "hex": "#6A2512",
+    "hex": "6A2512",
     "meanings": ["İçinde gaz olmayan veya gaz bulaşmamış olan", "Gaz olmadan"]
   },
   {
+    "id": 143,
     "word": "GECECİ",
-    "hex": "#6ECEC1",
+    "hex": "6ECEC1",
     "meanings": [
       "Çalışma sırası geceye rastlayan görevli",
       "Gündüz erken saatlerde kendini yorgun, çalışmaktan bitkin hisseden kimse"
     ]
   },
   {
+    "id": 144,
     "word": "GEZ",
-    "hex": "#6E2",
+    "hex": "6E2",
     "meanings": [
       "Okun, kirişe geçen ucundaki kertik",
       "Tüfek, tabanca vb. ateşli silahlarda namlunun gerisinde bulunan ve nişan alırken arpacıkla birlikte göz ile hedef arasında aynı doğru üzerine getirilen kertik",
@@ -961,18 +1106,21 @@
     ]
   },
   {
+    "id": 145,
     "word": "GEZİCİ",
-    "hex": "#6E21C1",
+    "hex": "6E21C1",
     "meanings": ["Gezgin", "Halka yardım amacıyla hizmet götüren"]
   },
   {
+    "id": 146,
     "word": "GİBİSİ",
-    "hex": "#61B151",
+    "hex": "61B151",
     "meanings": ["Benzeri"]
   },
   {
+    "id": 147,
     "word": "GİDİCİ",
-    "hex": "#61D1C1",
+    "hex": "61D1C1",
     "meanings": [
       "Kısa süre için var olan, kalıcı karşıtı",
       "Gitme durumunda bulunan, gitmek üzere olan",
@@ -980,26 +1128,24 @@
     ]
   },
   {
+    "id": 148,
     "word": "GİZ",
-    "hex": "#612",
+    "hex": "612",
     "meanings": [
       "Sır",
       "Yelken gemilerinde mizana direği denilen kıç direkte eğik duran bayrak sereni"
     ]
   },
   {
+    "id": 149,
     "word": "GOŞİST",
-    "hex": "#605157",
+    "hex": "605157",
     "meanings": ["Goşizm yanlısı olan kimse veya tutum"]
   },
   {
-    "word": "GÖT",
-    "hex": "#607",
-    "meanings": ["Anüs", "Alt taraf, dip", "Kaba et, kıç, popo"]
-  },
-  {
+    "id": 150,
     "word": "GÖZ",
-    "hex": "#602",
+    "hex": "602",
     "meanings": [
       "Görme organı, basar",
       "Bazı deyimlerde, görme ve bakma",
@@ -1017,66 +1163,77 @@
     ]
   },
   {
+    "id": 151,
     "word": "ISI",
-    "hex": "#151",
+    "hex": "151",
     "meanings": [
       "Bir cismin uzamasına, genleşmesine, buharlaşmasına, erimesine, sıcaklığının artmasına yol açan fiziksel enerji",
       "Fiziksel bir olaya dayalı, belirli bir ölçü üzerine kurulmuş olan sıcaklık ve soğukluk derecesi"
     ]
   },
   {
+    "id": 152,
     "word": "ISITIŞ",
-    "hex": "#151715",
+    "hex": "151715",
     "meanings": ["Isıtma işi"]
   },
   {
+    "id": 153,
     "word": "ISTIFA",
-    "hex": "#1571FA",
+    "hex": "1571FA",
     "meanings": ["Ayıklanma"]
   },
   {
+    "id": 154,
     "word": "İBADET",
-    "hex": "#1BADE7",
+    "hex": "1BADE7",
     "meanings": ["Bir dinin buyruklarını yerine getirme"]
   },
   {
+    "id": 155,
     "word": "İCABET",
-    "hex": "#1CABE7",
+    "hex": "1CABE7",
     "meanings": [
       "Bir çağrıyı yerine getirme, bir çağrıya gitme",
       "Bir buyruk veya isteğe uyma, kabul etme, razı olma"
     ]
   },
   {
+    "id": 156,
     "word": "İCAZET",
-    "hex": "#1CA2E7",
+    "hex": "1CA2E7",
     "meanings": ["İzin", "Onay, onaylama", "Diploma"]
   },
   {
+    "id": 157,
     "word": "İDE",
-    "hex": "#1DE",
+    "hex": "1DE",
     "meanings": ["Düşünce"]
   },
   {
+    "id": 158,
     "word": "İFA",
-    "hex": "#1FA",
+    "hex": "1FA",
     "meanings": ["Bir işi yapma, yerine getirme", "Ödeme"]
   },
   {
+    "id": 159,
     "word": "İFŞAAT",
-    "hex": "#1F5AA7",
+    "hex": "1F5AA7",
     "meanings": ["Gizli bir şeyi ortaya çıkarmak için yapılan açıklamalar"]
   },
   {
+    "id": 160,
     "word": "İSA",
-    "hex": "#15A",
+    "hex": "15A",
     "meanings": [
       "`İyilik edeyim derken kimseyi memnun edemedi` anlamındaki İsa'yı küstürdü, Muhammed'i memnun edemedi atasözünde geçen bir söz"
     ]
   },
   {
+    "id": 161,
     "word": "İSABET",
-    "hex": "#15ABE7",
+    "hex": "15ABE7",
     "meanings": [
       "Hedefe varma, hedefi vurma",
       "Piyango vb. şans oyunlarında, kazanma, çıkma, vurma",
@@ -1087,46 +1244,54 @@
     ]
   },
   {
+    "id": 162,
     "word": "İSTİDA",
-    "hex": "#1571DA",
+    "hex": "1571DA",
     "meanings": ["Dilekçe"]
   },
   {
+    "id": 163,
     "word": "İSTİFA",
-    "hex": "#1571FA",
+    "hex": "1571FA",
     "meanings": [
       "Kendi isteğiyle işten veya bir hizmetten ayrılma",
       "İşten ayrılma isteğini bildiren dilekçe, istifaname"
     ]
   },
   {
+    "id": 164,
     "word": "İŞBAŞI",
-    "hex": "#15BA51",
+    "hex": "15BA51",
     "meanings": ["İş yerlerinde işe başlama"]
   },
   {
+    "id": 165,
     "word": "İŞİTİŞ",
-    "hex": "#151715",
+    "hex": "151715",
     "meanings": ["İşitme işi"]
   },
   {
+    "id": 166,
     "word": "İTA",
-    "hex": "#17A",
+    "hex": "17A",
     "meanings": ["Verme, ödeme"]
   },
   {
+    "id": 167,
     "word": "İTİ",
-    "hex": "#171",
+    "hex": "171",
     "meanings": ["İtici güç, ilham verici"]
   },
   {
+    "id": 168,
     "word": "İZAFET",
-    "hex": "#12AFE7",
+    "hex": "12AFE7",
     "meanings": ["Görelik"]
   },
   {
+    "id": 169,
     "word": "OBA",
-    "hex": "#0BA",
+    "hex": "0BA",
     "meanings": [
       "Göçebelerin konak yeri",
       "Bu yerde konaklayan göçebe halk veya aile",
@@ -1134,8 +1299,9 @@
     ]
   },
   {
+    "id": 170,
     "word": "ODA",
-    "hex": "#0DA",
+    "hex": "0DA",
     "meanings": [
       "Evin veya herhangi bir yapının oturma, çalışma, yatma gibi işlere yarayan, banyo, salon, giriş vb. dışında kalan, bir veya birden fazla çıkışı olan bölmesi, göz",
       "Serbest meslek adamlarını içinde toplayan resmî birlik",
@@ -1143,13 +1309,15 @@
     ]
   },
   {
+    "id": 171,
     "word": "OTAĞCI",
-    "hex": "#07A6C1",
+    "hex": "07A6C1",
     "meanings": ["Otağ yapan veya satan kimse", "Orduda otağ kuran er"]
   },
   {
+    "id": 172,
     "word": "ÖGE",
-    "hex": "#06E",
+    "hex": "06E",
     "meanings": [
       "Bir bütünü oluşturan, bütünden ayrıştırıldığında da kendi başına anlam taşıyan parça, unsur",
       "Başka şeylerin kendisinden türediği ilk madde, ilke, unsur",
@@ -1160,8 +1328,9 @@
     ]
   },
   {
+    "id": 173,
     "word": "ÖTE",
-    "hex": "#07E",
+    "hex": "07E",
     "meanings": [
       "Konuşanın temel olarak aldığı bir şeyden daha uzak olan yer veya şey, mavera, beri karşıtı",
       "Bir şeyin arkadan gelen bölümü",
@@ -1171,46 +1340,54 @@
     ]
   },
   {
+    "id": 174,
     "word": "ÖZBEÖZ",
-    "hex": "#02BE02",
+    "hex": "02BE02",
     "meanings": ["Gerçek"]
   },
   {
+    "id": 175,
     "word": "ÖZCESİ",
-    "hex": "#02CE51",
+    "hex": "02CE51",
     "meanings": ["Özet olarak, kısacası, sözün özü, sözün kısası"]
   },
   {
+    "id": 176,
     "word": "ÖZE",
-    "hex": "#02E",
+    "hex": "02E",
     "meanings": ["Özgü"]
   },
   {
+    "id": 177,
     "word": "ÖZGECİ",
-    "hex": "#026EC1",
+    "hex": "026EC1",
     "meanings": ["Kişisel yarar gözetmeksizin başkasına yararlı olmaya çalışan (kimse), diğerkâm"]
   },
   {
+    "id": 178,
     "word": "SAADET",
-    "hex": "#5AADE7",
+    "hex": "5AADE7",
     "meanings": ["Mutluluk"]
   },
   {
+    "id": 179,
     "word": "SABİTE",
-    "hex": "#5AB17E",
+    "hex": "5AB17E",
     "meanings": [
       "Bir formülde geçen ve önceden belirlenmiş bulunan değişmez nicelik",
       "Görünürde hareket etmeyen yıldız"
     ]
   },
   {
+    "id": 180,
     "word": "SABOTE",
-    "hex": "#5AB07E",
+    "hex": "5AB07E",
     "meanings": ["Baltalama"]
   },
   {
+    "id": 181,
     "word": "SAC",
-    "hex": "#5AC",
+    "hex": "5AC",
     "meanings": [
       "Yassı demir çelik ürünü",
       "Bu üründen yapılan",
@@ -1218,21 +1395,24 @@
     ]
   },
   {
+    "id": 182,
     "word": "SADECE",
-    "hex": "#5ADECE",
+    "hex": "5ADECE",
     "meanings": ["Yalnızca"]
   },
   {
+    "id": 183,
     "word": "SADİST",
-    "hex": "#5AD157",
+    "hex": "5AD157",
     "meanings": [
       "Başkalarına acı çektirerek cinsel doyum sağlayan (kimse), elezer",
       "Başkalarına acı çektirmekten zevk duyan (kimse), elezer"
     ]
   },
   {
+    "id": 184,
     "word": "SAF",
-    "hex": "#5AF",
+    "hex": "5AF",
     "meanings": [
       "Dizi, sıra",
       "Grup",
@@ -1242,13 +1422,15 @@
     ]
   },
   {
+    "id": 185,
     "word": "SAFFET",
-    "hex": "#5AFFE7",
+    "hex": "5AFFE7",
     "meanings": ["Temizlik, arılık"]
   },
   {
+    "id": 186,
     "word": "SAĞ",
-    "hex": "#5A6",
+    "hex": "5A6",
     "meanings": [
       "Vücutta kalbin bulunduğu tarafın karşısında olan, sol karşıtı",
       "Bu taraftaki yön",
@@ -1260,13 +1442,15 @@
     ]
   },
   {
+    "id": 187,
     "word": "SATICI",
-    "hex": "#5A71C1",
+    "hex": "5A71C1",
     "meanings": ["Alıcıya bir şey satan kimse"]
   },
   {
+    "id": 188,
     "word": "SAZ",
-    "hex": "#5A2",
+    "hex": "5A2",
     "meanings": [
       "Genellikle su kıyılarında, bataklık yerlerde yetişen ince, açık sarı renkli kamış, hasır otu, kiliz, kofa",
       "Bu kamıştan yapılmış",
@@ -1278,13 +1462,15 @@
     ]
   },
   {
+    "id": 189,
     "word": "SAZSIZ",
-    "hex": "#5A2512",
+    "hex": "5A2512",
     "meanings": ["Sazı olmayan", "Eğlencesiz bir biçimde"]
   },
   {
+    "id": 190,
     "word": "SES",
-    "hex": "#5E5",
+    "hex": "5E5",
     "meanings": [
       "Kulağın duyabildiği titreşim, seda, ün",
       "Akciğerlerden gelen havanın ses yolunda oluşturduğu titreşim",
@@ -1294,8 +1480,9 @@
     ]
   },
   {
+    "id": 191,
     "word": "SESSİZ",
-    "hex": "#5E5512",
+    "hex": "5E5512",
     "meanings": [
       "Sesi olmayan, ses çıkarmayan",
       "Ses, gürültü çıkarmadan yapılan",
@@ -1307,15 +1494,17 @@
     ]
   },
   {
+    "id": 192,
     "word": "SESTEŞ",
-    "hex": "#5E57E5",
+    "hex": "5E57E5",
     "meanings": [
       "Söylenişleri aynı, anlam ve kökleri ayrı olan (kelimeler), eş adlı, eş sesli, homonim"
     ]
   },
   {
+    "id": 193,
     "word": "SET",
-    "hex": "#5E7",
+    "hex": "5E7",
     "meanings": [
       "Toprağın kaymasını veya suyun akmasını önlemek için yapılan kalın duvar",
       "Bulunulan yerden daha yüksekte kalan düzlük",
@@ -1326,98 +1515,114 @@
     ]
   },
   {
+    "id": 194,
     "word": "SIĞ",
-    "hex": "#516",
+    "hex": "516",
     "meanings": [
       "Derinliği az, dibi yüzeyine yakın olan (göl, deniz, akarsu vb.)",
       "Ayrıntıya inemeyen, yeterli olmayan, yüzeyde kalan"
     ]
   },
   {
+    "id": 195,
     "word": "SIZGIT",
-    "hex": "#512617",
+    "hex": "512617",
     "meanings": ["Kavrulmuş et, kavurma"]
   },
   {
+    "id": 196,
     "word": "SIZICI",
-    "hex": "#5121C1",
+    "hex": "5121C1",
     "meanings": ["Sızma özelliği olan"]
   },
   {
+    "id": 197,
     "word": "SİESTA",
-    "hex": "#51E57A",
+    "hex": "51E57A",
     "meanings": ["öğle uykusu"]
   },
   {
+    "id": 198,
     "word": "SİF",
-    "hex": "#51F",
+    "hex": "51F",
     "meanings": [
       "İthalatta bir malın bedeli, sigortası ve navlun giderleriyle birlikte olmak üzere maliyeti"
     ]
   },
   {
+    "id": 199,
     "word": "SİS",
-    "hex": "#515",
+    "hex": "515",
     "meanings": [
       "Atmosferin alt tabakalarındaki küçük su taneleri veya buhardan oluşan bulutların çok alçalarak yeryüzüne kadar inmesiyle oluşan duman"
     ]
   },
   {
+    "id": 200,
     "word": "SİSTİT",
-    "hex": "#515717",
+    "hex": "515717",
     "meanings": ["Genellikle bakterilerin sebep olduğu sidik torbası yangısı"]
   },
   {
+    "id": 201,
     "word": "SİT",
-    "hex": "#517",
+    "hex": "517",
     "meanings": [
       "Tarih öncesinden günümüze kadar değişik çağların ve uygarlıkların kültür değerlerini temsil eden eser veya kalıntı"
     ]
   },
   {
+    "id": 202,
     "word": "SİZ",
-    "hex": "#512",
+    "hex": "512",
     "meanings": [
       "Çokluk ikinci kişi zamiri",
       "Bir kişiye saygı ve incelik belirtisi olarak kullanılan bir seslenme sözü"
     ]
   },
   {
+    "id": 203,
     "word": "SİZSİZ",
-    "hex": "#512512",
+    "hex": "512512",
     "meanings": ["Siz olmaksızın"]
   },
   {
+    "id": 204,
     "word": "SOBACI",
-    "hex": "#50BAC1",
+    "hex": "50BAC1",
     "meanings": ["Soba yapan, satan, onaran veya kuran kimse"]
   },
   {
+    "id": 205,
     "word": "SOF",
-    "hex": "#50F",
+    "hex": "50F",
     "meanings": ["Bir çeşit sertçe, ince yünlü kumaş", "Ham ipekten yapılmış astarlık kumaş"]
   },
   {
+    "id": 206,
     "word": "SOFİST",
-    "hex": "#50F157",
+    "hex": "50F157",
     "meanings": ["Bilgici", "Safsatacı, yanıltıcı"]
   },
   {
+    "id": 207,
     "word": "SOĞDCA",
-    "hex": "#506DCA",
+    "hex": "506DCA",
     "meanings": [
       "Orta Asya'da Soğdların kullandıkları İran kökenli ölü dil, Soğdakça",
       "Bu dille yazılmış olan"
     ]
   },
   {
+    "id": 208,
     "word": "SOS",
-    "hex": "#505",
+    "hex": "505",
     "meanings": ["Bazı yemeklerin üzerine dökülen, domates, baharat vb. şeylerle yapılan karışım"]
   },
   {
+    "id": 209,
     "word": "SÖZ",
-    "hex": "#502",
+    "hex": "502",
     "meanings": [
       "Bir düşünceyi eksiksiz olarak anlatan kelime dizisi, lakırtı, kelam, laf, kavil",
       "Bir veya birkaç heceden oluşan ve anlamı olan ses birliği, kelime, sözcük",
@@ -1428,78 +1633,92 @@
     ]
   },
   {
+    "id": 210,
     "word": "STOACI",
-    "hex": "#570AC1",
+    "hex": "570AC1",
     "meanings": ["Stoacılık yanlısı (kimse, görüş vb.)"]
   },
   {
+    "id": 211,
     "word": "ŞAD",
-    "hex": "#5AD",
+    "hex": "5AD",
     "meanings": ["Sevinçli, neşeli"]
   },
   {
+    "id": 212,
     "word": "ŞAT",
-    "hex": "#5A7",
+    "hex": "5A7",
     "meanings": ["Sığ sularda ağır yükleri taşımak için kullanılan, altı düz bir çeşit tekne"]
   },
   {
+    "id": 213,
     "word": "ŞAZ",
-    "hex": "#5A2",
+    "hex": "5A2",
     "meanings": ["Ayrık, kural dışı, müstesna"]
   },
   {
+    "id": 214,
     "word": "ŞEB",
-    "hex": "#5EB",
+    "hex": "5EB",
     "meanings": ["Gece"]
   },
   {
+    "id": 215,
     "word": "ŞECAAT",
-    "hex": "#5ECAA7",
+    "hex": "5ECAA7",
     "meanings": ["Yiğitlik"]
   },
   {
+    "id": 216,
     "word": "ŞEF",
-    "hex": "#5EF",
+    "hex": "5EF",
     "meanings": ["Yetki ve sorumluluğu olan, yöneten kimse", "Önder, lider"]
   },
   {
+    "id": 217,
     "word": "ŞEFAAT",
-    "hex": "#5EFAA7",
+    "hex": "5EFAA7",
     "meanings": [
       "Birinin suçunun bağışlanması veya dileğinin yerine getirilmesi için o kimseyle Tanrı arasında peygamberin yaptığı aracılık"
     ]
   },
   {
+    "id": 218,
     "word": "ŞEFFAF",
-    "hex": "#5EFFAF",
+    "hex": "5EFFAF",
     "meanings": ["Saydam"]
   },
   {
+    "id": 219,
     "word": "ŞEŞ",
-    "hex": "#5E5",
+    "hex": "5E5",
     "meanings": ["Altı"]
   },
   {
+    "id": 220,
     "word": "ŞEŞBEŞ",
-    "hex": "#5E5BE5",
+    "hex": "5E5BE5",
     "meanings": ["Zarla oynanan oyunlarda atılan zarlardan birinin altı, öbürünün beş gelmesi"]
   },
   {
+    "id": 221,
     "word": "ŞET",
-    "hex": "#5E7",
+    "hex": "5E7",
     "meanings": [
       "Sıkarak bağlama, sıkma",
       "Klasik Türk müziğinde bir makamı kendi perdelerinden daha tiz veya pes perdelerde çalma işi"
     ]
   },
   {
+    "id": 222,
     "word": "ŞİA",
-    "hex": "#51A",
+    "hex": "51A",
     "meanings": ["İslamiyette Hz. Ali'ye yandaş olan kimseler", "Şiilik"]
   },
   {
+    "id": 223,
     "word": "ŞİDDET",
-    "hex": "#51DDE7",
+    "hex": "51DDE7",
     "meanings": [
       "Bir hareketin, bir gücün derecesi, yeğinlik, sertlik",
       "Hız",
@@ -1510,18 +1729,21 @@
     ]
   },
   {
+    "id": 224,
     "word": "ŞİF",
-    "hex": "#51F",
+    "hex": "51F",
     "meanings": ["Pamuk kozası", "Şırası alınmış üzüm posası"]
   },
   {
+    "id": 225,
     "word": "Şİİ",
-    "hex": "#511",
+    "hex": "511",
     "meanings": ["Şiilik mezhebinden olan kimse"]
   },
   {
+    "id": 226,
     "word": "ŞİŞ",
-    "hex": "#515",
+    "hex": "515",
     "meanings": [
       "Şişmiş olan yer, şişlik",
       "Şişmiş, şişkin",
@@ -1531,28 +1753,33 @@
     ]
   },
   {
+    "id": 227,
     "word": "ŞİŞECİ",
-    "hex": "#515EC1",
+    "hex": "515EC1",
     "meanings": ["Şişe alan veya satan kimse"]
   },
   {
+    "id": 228,
     "word": "ŞİZOİT",
-    "hex": "#512017",
+    "hex": "512017",
     "meanings": ["Bozuk, çarpık"]
   },
   {
+    "id": 229,
     "word": "TAB",
-    "hex": "#7AB",
+    "hex": "7AB",
     "meanings": ["Mizaç, huy, tabiat, karakter", "Bası"]
   },
   {
+    "id": 230,
     "word": "TABAAT",
-    "hex": "#7ABAA7",
+    "hex": "7ABAA7",
     "meanings": ["Basımcılık"]
   },
   {
+    "id": 231,
     "word": "TABİAT",
-    "hex": "#7AB1A7",
+    "hex": "7AB1A7",
     "meanings": [
       "Doğa",
       "Doğal özellik",
@@ -1562,13 +1789,15 @@
     ]
   },
   {
+    "id": 232,
     "word": "TAĞŞİŞ",
-    "hex": "#7A6515",
+    "hex": "7A6515",
     "meanings": ["Bir şeyin içine başka bir madde karıştırma, katıştırma"]
   },
   {
+    "id": 233,
     "word": "TAS",
-    "hex": "#7A5",
+    "hex": "7A5",
     "meanings": [
       "Genellikle içine sulu şeyler konulan metal vb.nden yapılmış kap",
       "Bu kabın alacağı miktarda olan",
@@ -1576,8 +1805,9 @@
     ]
   },
   {
+    "id": 234,
     "word": "TAŞ",
-    "hex": "#7A5",
+    "hex": "7A5",
     "meanings": [
       "Kimyasal veya fiziksel durumu değişiklikler gösteren, rengini içindeki maden, tuz ve oksitlerden alan sert ve katı madde",
       "Bu maddeden yapılmış, bu maddeden oluşmuş",
@@ -1591,13 +1821,15 @@
     ]
   },
   {
+    "id": 235,
     "word": "TAŞSIZ",
-    "hex": "#7A5512",
+    "hex": "7A5512",
     "meanings": ["Taşı olmayan"]
   },
   {
+    "id": 236,
     "word": "TAT",
-    "hex": "#7A7",
+    "hex": "7A7",
     "meanings": [
       "Canlıların besinlerdeki uçucu olmayan bileşikleri damak, boğaz ve dil yüzeyindeki mukoza noktaları aracılığıyla algıladığı duyum",
       "Tatlılık",
@@ -1608,8 +1840,9 @@
     ]
   },
   {
+    "id": 237,
     "word": "TATSIZ",
-    "hex": "#7A7512",
+    "hex": "7A7512",
     "meanings": [
       "Tadı iyi olmayan, lezzetsiz",
       "Tadı olmayan, sası",
@@ -1620,56 +1853,66 @@
     ]
   },
   {
+    "id": 238,
     "word": "TAZECE",
-    "hex": "#7A2ECE",
+    "hex": "7A2ECE",
     "meanings": ["Tazeye yakın, taze gibi"]
   },
   {
+    "id": 239,
     "word": "TAZICI",
-    "hex": "#7A21C1",
+    "hex": "7A21C1",
     "meanings": ["Tazı yetiştiren veya satan kimse"]
   },
   {
+    "id": 240,
     "word": "TECDİT",
-    "hex": "#7ECD17",
+    "hex": "7ECD17",
     "meanings": ["Yenileme, tazeleme"]
   },
   {
+    "id": 241,
     "word": "TEF",
-    "hex": "#7EF",
+    "hex": "7EF",
     "meanings": ["Zilli bir kasnağa geçirilmiş kursak zarından oluşan çalgı"]
   },
   {
+    "id": 242,
     "word": "TEFECİ",
-    "hex": "#7EFEC1",
+    "hex": "7EFEC1",
     "meanings": ["El altından yüksek faizle ödünç para veren kimse, faizci, murabahacı"]
   },
   {
+    "id": 243,
     "word": "TEFTİŞ",
-    "hex": "#7EF715",
+    "hex": "7EF715",
     "meanings": ["Denetleme"]
   },
   {
+    "id": 244,
     "word": "TESDİS",
-    "hex": "#7E5D15",
+    "hex": "7E5D15",
     "meanings": [
       "Sayısını altıya çıkarma veya altıya bölme",
       "Bir gazelin her beytine dört dize ekleyerek altılı duruma getirme"
     ]
   },
   {
+    "id": 245,
     "word": "TESTİS",
-    "hex": "#7E5715",
+    "hex": "7E5715",
     "meanings": ["Er bezi"]
   },
   {
+    "id": 246,
     "word": "TEŞDİT",
-    "hex": "#7E5D17",
+    "hex": "7E5D17",
     "meanings": ["Şiddetini artırma, güç verme", "Sağlamlaştırma"]
   },
   {
+    "id": 247,
     "word": "TEZ",
-    "hex": "#7E2",
+    "hex": "7E2",
     "meanings": [
       "Çabuk olan, süratli",
       "Süratli bir biçimde",
@@ -1678,8 +1921,9 @@
     ]
   },
   {
+    "id": 248,
     "word": "TIĞ",
-    "hex": "#716",
+    "hex": "716",
     "meanings": [
       "Dantel veya yün örmekte kullanılan, ucu çengelli kısa şiş",
       "Biz ",
@@ -1688,23 +1932,27 @@
     ]
   },
   {
+    "id": 249,
     "word": "TIS",
-    "hex": "#715",
+    "hex": "715",
     "meanings": ["Kaz, kedi, yılan vb.nin çıkardığı ses"]
   },
   {
+    "id": 250,
     "word": "TİZ",
-    "hex": "#712",
+    "hex": "712",
     "meanings": ["İnce, keskin (ses)"]
   },
   {
+    "id": 251,
     "word": "TOS",
-    "hex": "#705",
+    "hex": "705",
     "meanings": ["Alın veya boynuzla vuruş"]
   },
   {
+    "id": 252,
     "word": "TOZ",
-    "hex": "#702",
+    "hex": "702",
     "meanings": [
       "Çok küçük ve hafif parçacıklara bölünmüş toprak",
       "Çok küçük parçacıklara bölünmüş olan herhangi bir madde",
@@ -1712,77 +1960,90 @@
     ]
   },
   {
+    "id": 253,
     "word": "TÖS",
-    "hex": "#705",
+    "hex": "705",
     "meanings": ["Hayvanı töskürtmek için söylenen bir söz"]
   },
   {
+    "id": 254,
     "word": "TÖZ",
-    "hex": "#702",
+    "hex": "702",
     "meanings": [
       "Kök, asıl, cevher",
       "Değişenlerin özünde değişmeden kaldığı varsayılan idealist kavram, cevher"
     ]
   },
   {
+    "id": 255,
     "word": "ZABITA",
-    "hex": "#2AB17A",
+    "hex": "2AB17A",
     "meanings": [
       "Belediye hizmetlerinin güvenliğini sağlamakla görevli yönetim",
       "Belediye zabıtası"
     ]
   },
   {
+    "id": 256,
     "word": "ZAĞ",
-    "hex": "#2A6",
+    "hex": "2A6",
     "meanings": ["Kılağı"]
   },
   {
+    "id": 257,
     "word": "ZAĞSIZ",
-    "hex": "#2A6512",
+    "hex": "2A6512",
     "meanings": ["Kılağısız"]
   },
   {
+    "id": 258,
     "word": "ZAT",
-    "hex": "#2A7",
+    "hex": "2A7",
     "meanings": ["Kişi", "Kendi"]
   },
   {
+    "id": 259,
     "word": "ZAZACA",
-    "hex": "#2A2ACA",
+    "hex": "2A2ACA",
     "meanings": ["Zazaların kullandığı dil", "Bu dille yazılmış olan"]
   },
   {
+    "id": 260,
     "word": "ZIT",
-    "hex": "#217",
+    "hex": "217",
     "meanings": ["Karşıt, ters"]
   },
   {
+    "id": 261,
     "word": "ZİBİDİ",
-    "hex": "#21B1D1",
+    "hex": "21B1D1",
     "meanings": [
       "Gülünç olacak derecede kısa ve dar giyinmiş olan",
       "Yersiz ve zamansız davranışları olan kimse"
     ]
   },
   {
+    "id": 262,
     "word": "ABAT",
-    "hex": "#ABA7",
+    "hex": "ABA7",
     "meanings": ["Bayındır", "Şen, rahat"]
   },
   {
+    "id": 263,
     "word": "ABES",
-    "hex": "#ABE5",
+    "hex": "ABE5",
     "meanings": ["Gereksiz, yersiz, boş", "Akla ve gerçeğe aykırı", "Gereksiz bir biçimde"]
   },
   {
+    "id": 264,
     "word": "ABİS",
-    "hex": "#AB15",
+    "hex": "AB15",
     "meanings": ["Okyanusların güneş ışığının ulaşamadığı derin yerleri"]
   },
   {
+    "id": 265,
     "word": "ACİZ",
-    "hex": "#AC12",
+    "hex": "AC12",
     "meanings": [
       "Gücü bir işe yetmez olan, güçsüz",
       "Beceriksiz",
@@ -1794,18 +2055,21 @@
     ]
   },
   {
+    "id": 266,
     "word": "ADAŞ",
-    "hex": "#ADA5",
+    "hex": "ADA5",
     "meanings": ["Adları aynı olanlardan her biri"]
   },
   {
+    "id": 267,
     "word": "ADCI",
-    "hex": "#ADC1",
+    "hex": "ADC1",
     "meanings": ["Adcılık öğretisine bağlı (kimse), isimci"]
   },
   {
+    "id": 268,
     "word": "ADET",
-    "hex": "#ADE7",
+    "hex": "ADE7",
     "meanings": [
       "Görenek",
       "Alışkanlık",
@@ -1816,13 +2080,15 @@
     ]
   },
   {
+    "id": 269,
     "word": "AFAT",
-    "hex": "#AFA7",
+    "hex": "AFA7",
     "meanings": ["Afetler"]
   },
   {
+    "id": 270,
     "word": "AFET",
-    "hex": "#AFE7",
+    "hex": "AFE7",
     "meanings": [
       "Çeşitli doğa olaylarının sebep olduğu yıkım",
       "Kıran",
@@ -1832,51 +2098,59 @@
     ]
   },
   {
+    "id": 271,
     "word": "AFETZEDE",
-    "hex": "#AFE72EDE",
+    "hex": "AFE72EDE",
     "meanings": ["Afete uğramış, afet görmüş kimse"]
   },
   {
+    "id": 272,
     "word": "AFİF",
-    "hex": "#AF1F",
+    "hex": "AF1F",
     "meanings": ["İffetli (erkek)"]
   },
   {
+    "id": 273,
     "word": "AFİS",
-    "hex": "#AF15",
+    "hex": "AF15",
     "meanings": ["Gümüş balığının küçüğü"]
   },
   {
+    "id": 274,
     "word": "AFİŞ",
-    "hex": "#AF15",
+    "hex": "AF15",
     "meanings": [
       "Bir şeyi duyurmak veya tanıtmak için hazırlanan, kalabalığın görebileceği yere asılmış, genellikle resimli duvar ilanı, ası"
     ]
   },
   {
+    "id": 275,
     "word": "AĞCI",
-    "hex": "#A6C1",
+    "hex": "A6C1",
     "meanings": ["Ağ ile balık tutarak geçinen kimse"]
   },
   {
+    "id": 276,
     "word": "AĞDA",
-    "hex": "#A6DA",
+    "hex": "A6DA",
     "meanings": [
       "Kaynatılarak çok koyu ve yapışkan bir macun durumuna getirilen pekmez veya limonlu şeker eriyiği",
       "Şekerle yapılan ürünlerin hazırlanması veya beklemesi sırasında şekerin ulaştığı koyuluk"
     ]
   },
   {
+    "id": 277,
     "word": "AĞIŞ",
-    "hex": "#A615",
+    "hex": "A615",
     "meanings": [
       "Ağma işi",
       "Su buharının ve başka gazların yerden havaya doğru çıkışı, yağış karşıtı"
     ]
   },
   {
+    "id": 278,
     "word": "AĞIT",
-    "hex": "#A617",
+    "hex": "A617",
     "meanings": [
       "Ölenin iyi niteliklerini, ölümünden duyulan acıyı dile getiren söz veya ezgi",
       "Gelinin arkasından niteliklerini anlatan söz veya ezgi",
@@ -1884,8 +2158,9 @@
     ]
   },
   {
+    "id": 279,
     "word": "AĞIZ",
-    "hex": "#A612",
+    "hex": "A612",
     "meanings": [
       "Yüzde, avurtlarla iki çene arasında bulunan, ses çıkarmaya, soluk alıp vermeye yarayan ve besinlerin sindirilmeye başlandığı organ",
       "Bu boşluğun dudakları çevreleyen bölümü",
@@ -1903,52 +2178,60 @@
     ]
   },
   {
+    "id": 280,
     "word": "AĞSI",
-    "hex": "#A651",
+    "hex": "A651",
     "meanings": ["Ağ görünüşünde olan, ağ gibi örülmüş olan"]
   },
   {
+    "id": 281,
     "word": "ASES",
-    "hex": "#A5E5",
+    "hex": "A5E5",
     "meanings": [
       "Osmanlı Devleti'nde Yeniçeri Ocağının kaldırılmasından önceki güvenlik görevlisi",
       "Gece bekçisi"
     ]
   },
   {
+    "id": 282,
     "word": "ASESBAŞI",
-    "hex": "#A5E5BA51",
+    "hex": "A5E5BA51",
     "meanings": [
       "Yeniçeri Ocağındaki askerî görevinin yanı sıra, başkentin düzenini korumakla da yükümlü olan yirmi sekizinci ortanın çorbacıbaşısı"
     ]
   },
   {
+    "id": 283,
     "word": "ASİT",
-    "hex": "#A517",
+    "hex": "A517",
     "meanings": [
       "Turnusolün mavi rengini kırmızıya çevirmek özelliğinde olan ve birleşimindeki hidrojenin yerine maden alarak tuz oluşturan hidrojenli birleşik, hamız"
     ]
   },
   {
+    "id": 284,
     "word": "AŞIT",
-    "hex": "#A517",
+    "hex": "A517",
     "meanings": ["Siper, kuytu yer", "Aşılacak yer", "Dağ geçidi"]
   },
   {
+    "id": 285,
     "word": "AŞOZ",
-    "hex": "#A502",
+    "hex": "A502",
     "meanings": [
       "Ahşap gemilerin omurgalarının uzunluğunca ve iki yanında borda kaplamalarının en dar yüzünü yerleştirmek için açılan keskin, sivri köşeli yuva"
     ]
   },
   {
+    "id": 286,
     "word": "ATAŞ",
-    "hex": "#A7A5",
+    "hex": "A7A5",
     "meanings": ["Tutturgaç"]
   },
   {
+    "id": 287,
     "word": "ATEŞ",
-    "hex": "#A7E5",
+    "hex": "A7E5",
     "meanings": [
       "Yanıcı cisimlerin tutuşmasıyla beliren ısı ve ışık, od, nâr",
       "Tutuşmuş olan cisim",
@@ -1962,52 +2245,61 @@
     ]
   },
   {
+    "id": 288,
     "word": "ATIF",
-    "hex": "#A71F",
+    "hex": "A71F",
     "meanings": ["Yöneltme, çevirme", "İlişkili bulma", "Gönderme"]
   },
   {
+    "id": 289,
     "word": "ATIŞ",
-    "hex": "#A715",
+    "hex": "A715",
     "meanings": ["Atma işi", "Kalp veya nabzın vuruşu, çarpışı"]
   },
   {
+    "id": 290,
     "word": "AZAT",
-    "hex": "#A2A7",
+    "hex": "A2A7",
     "meanings": ["Serbest bırakma", "Okullarda paydos", "Serbest bırakılmış olan"]
   },
   {
+    "id": 291,
     "word": "AZCA",
-    "hex": "#A2CA",
+    "hex": "A2CA",
     "meanings": ["Oldukça az"]
   },
   {
+    "id": 292,
     "word": "AZIŞ",
-    "hex": "#A215",
+    "hex": "A215",
     "meanings": ["Azma işi"]
   },
   {
+    "id": 293,
     "word": "AZİT",
-    "hex": "#A217",
+    "hex": "A217",
     "meanings": [
       "Azothidrik asit HN3 teki hidrojenin yerine bir kökün geçmesi ile türeyen birleşikler"
     ]
   },
   {
+    "id": 294,
     "word": "AZİZ",
-    "hex": "#A212",
+    "hex": "A212",
     "meanings": ["Ermiş, eren", "Sevgide üstün tutulan, muazzez"]
   },
   {
+    "id": 295,
     "word": "AZOT",
-    "hex": "#A207",
+    "hex": "A207",
     "meanings": [
       "Atom numarası 7, atom ağırlığı 14,008 olan, havada beşte dört oranında bulunan, rengi, kokusu, tadı olmayan element, nitrojen (simgesi N)"
     ]
   },
   {
+    "id": 296,
     "word": "BABA",
-    "hex": "#BABA",
+    "hex": "BABA",
     "meanings": [
       "Çocuğu olan erkek, peder",
       "Çocuğun dünyaya gelmesinde etken olan erkek",
@@ -2026,13 +2318,15 @@
     ]
   },
   {
+    "id": 297,
     "word": "BABİ",
-    "hex": "#BAB1",
+    "hex": "BAB1",
     "meanings": ["Babilik yanlısı"]
   },
   {
+    "id": 298,
     "word": "BACA",
-    "hex": "#BACA",
+    "hex": "BACA",
     "meanings": [
       "Dumanı ocaktan çekip havaya vermeye yarayan yol",
       "Su yolu, lağım, maden ocağı vb. yer altı yapılarının hava deliği",
@@ -2040,13 +2334,15 @@
     ]
   },
   {
+    "id": 299,
     "word": "BACABAŞI",
-    "hex": "#BACABA51",
+    "hex": "BACABA51",
     "meanings": ["Ocağın üstündeki raf"]
   },
   {
+    "id": 300,
     "word": "BACI",
-    "hex": "#BAC1",
+    "hex": "BAC1",
     "meanings": [
       "Kız kardeş",
       "Bir evde uzun zaman çalışmış yaşlı kadınlara verilen unvan",
@@ -2056,23 +2352,27 @@
     ]
   },
   {
+    "id": 301,
     "word": "BADE",
-    "hex": "#BADE",
+    "hex": "BADE",
     "meanings": ["Şarap, içki"]
   },
   {
+    "id": 302,
     "word": "BADISABA",
-    "hex": "#BAD15ABA",
+    "hex": "BAD15ABA",
     "meanings": ["Sabah yeli"]
   },
   {
+    "id": 303,
     "word": "BADİ",
-    "hex": "#BAD1",
+    "hex": "BAD1",
     "meanings": ["Ördek"]
   },
   {
+    "id": 304,
     "word": "BAĞA",
-    "hex": "#BA6A",
+    "hex": "BA6A",
     "meanings": [
       "Kaplumbağa",
       "Deniz kaplumbağasının kabuğu",
@@ -2082,25 +2382,29 @@
     ]
   },
   {
+    "id": 305,
     "word": "BAĞI",
-    "hex": "#BA61",
+    "hex": "BA61",
     "meanings": ["Büyü"]
   },
   {
+    "id": 306,
     "word": "BAĞITSIZ",
-    "hex": "#BA617512",
+    "hex": "BA617512",
     "meanings": ["Sözleşmesi olmayan"]
   },
   {
+    "id": 307,
     "word": "BASI",
-    "hex": "#BA51",
+    "hex": "BA51",
     "meanings": [
       "Resim klişesi, dökme harf, taş kalıp kullanarak makine yardımı ile kâğıt, bez vb.ne yazı, resim, çıkarma işi, tab, edisyon"
     ]
   },
   {
+    "id": 308,
     "word": "BATI",
-    "hex": "#BA71",
+    "hex": "BA71",
     "meanings": [
       "Güneşin battığı yöndeki ülkeler bölgesi, Garp, Doğu karşıtı",
       "Siyasal anlamda Avrupa ve Kuzey Amerika",
@@ -2110,13 +2414,15 @@
     ]
   },
   {
+    "id": 309,
     "word": "BATİ",
-    "hex": "#BA71",
+    "hex": "BA71",
     "meanings": ["Yavaş, ağır"]
   },
   {
+    "id": 310,
     "word": "BAZA",
-    "hex": "#BA2A",
+    "hex": "BA2A",
     "meanings": [
       "Mobilyanın uzunluğunca konulan dar ayak",
       "Dolap gövdesinin zemine düzgün oturmasına yarayan çerçeve şeklindeki kaide",
@@ -2124,54 +2430,63 @@
     ]
   },
   {
+    "id": 311,
     "word": "BAZI",
-    "hex": "#BA21",
+    "hex": "BA21",
     "meanings": ["Birtakım, kimi", "Bazen"]
   },
   {
+    "id": 312,
     "word": "BAZOFOBİ",
-    "hex": "#BA20F0B1",
+    "hex": "BA20F0B1",
     "meanings": [
       "Sinirsel veya ruhsal bozukluktan ileri gelen yürüyememe hastalığı",
       "Yürürken düşme korkusu"
     ]
   },
   {
+    "id": 313,
     "word": "BEBE",
-    "hex": "#BEBE",
+    "hex": "BEBE",
     "meanings": ["Bebek, küçük çocuk"]
   },
   {
+    "id": 314,
     "word": "BEİS",
-    "hex": "#BE15",
+    "hex": "BE15",
     "meanings": ["Engel, uymazlık", "Kötülük, zarar"]
   },
   {
+    "id": 315,
     "word": "BESİ",
-    "hex": "#BE51",
+    "hex": "BE51",
     "meanings": [
       "Yaşatmak ve geliştirmek için gereken besinleri yedirip içirme işi",
       "Bir şeyi istenilen durumda tutmak veya oturtmak için kullanılan takoz vb. şeyler"
     ]
   },
   {
+    "id": 316,
     "word": "BESTESİZ",
-    "hex": "#BE57E512",
+    "hex": "BE57E512",
     "meanings": ["Bestesi olmayan"]
   },
   {
+    "id": 317,
     "word": "BETA",
-    "hex": "#BE7A",
+    "hex": "BE7A",
     "meanings": ["Yunan alfabesinin ikinci harfi"]
   },
   {
+    "id": 318,
     "word": "BETİ",
-    "hex": "#BE71",
+    "hex": "BE71",
     "meanings": ["Resim ve heykel sanatlarında varlıkların biçimi"]
   },
   {
+    "id": 319,
     "word": "BEZE",
-    "hex": "#BE2E",
+    "hex": "BE2E",
     "meanings": [
       "Yara veya çıban sebebiyle vücudun herhangi bir yerinde oluşan şişkinlik, gudde",
       "Hamur topağı, pazı",
@@ -2179,92 +2494,107 @@
     ]
   },
   {
+    "id": 320,
     "word": "BİAT",
-    "hex": "#B1A7",
+    "hex": "B1A7",
     "meanings": [
       "Bir kimsenin egemenliğini tanıma",
       "Osmanlı Devleti'nde padişah öldüğünde tahta geçecek oğlunun devlet yönetimindeki etkili gruplarca kabul edilip onaylanması"
     ]
   },
   {
+    "id": 321,
     "word": "BİBİ",
-    "hex": "#B1B1",
+    "hex": "B1B1",
     "meanings": ["Hala"]
   },
   {
+    "id": 322,
     "word": "BİDE",
-    "hex": "#B1DE",
+    "hex": "B1DE",
     "meanings": ["Bedenin belden aşağı bölümlerini yıkamakta kullanılan tuvalet aracı"]
   },
   {
+    "id": 323,
     "word": "BİGA",
-    "hex": "#B16A",
+    "hex": "B16A",
     "meanings": ["Çanakkale iline bağlı ilçelerden biri"]
   },
   {
+    "id": 324,
     "word": "BİŞİ",
-    "hex": "#B151",
+    "hex": "B151",
     "meanings": ["Çörek, tatlı bir tür ekmek"]
   },
   {
+    "id": 325,
     "word": "BOCA",
-    "hex": "#B0CA",
+    "hex": "B0CA",
     "meanings": ["Geminin rüzgâr almayan yanı, rüzgâraltı, orsa veya rüzgârüstü karşıtı"]
   },
   {
+    "id": 326,
     "word": "BOCİ",
-    "hex": "#B0C1",
+    "hex": "B0C1",
     "meanings": ["Ağır yük taşımaya yarayan, iki kalın ve küçük tekerleği olan el arabası"]
   },
   {
+    "id": 327,
     "word": "BOĞA",
-    "hex": "#B06A",
+    "hex": "B06A",
     "meanings": [
       "Damızlık erkek sığır",
       "Zodyak üzerinde Koç ile İkizler arasında yer alan takımyıldızın adı, Sevir"
     ]
   },
   {
+    "id": 328,
     "word": "BOĞAZSIZ",
-    "hex": "#B06A2512",
+    "hex": "B06A2512",
     "meanings": ["Boğazı olmayan", "Çok az yemek yiyen, iştahsız (kimse)"]
   },
   {
+    "id": 329,
     "word": "BOŞBOĞAZ",
-    "hex": "#B05B06A2",
+    "hex": "B05B06A2",
     "meanings": [
       "Saklanması gereken şeyleri söyleyiveren, sır saklayamayan, geveze, ayran ağızlı",
       "Yerli yersiz konuşan"
     ]
   },
   {
+    "id": 330,
     "word": "BOZA",
-    "hex": "#B02A",
+    "hex": "B02A",
     "meanings": [
       "Arpa, darı, mısır, buğday vb. tahılların hamurunun ekşitilmesiyle yapılan koyuca, tatlı veya mayhoş içecek"
     ]
   },
   {
+    "id": 331,
     "word": "BOZCAADA",
-    "hex": "#B02CAADA",
+    "hex": "B02CAADA",
     "meanings": ["Çanakkale iline bağlı ilçelerden biri"]
   },
   {
+    "id": 332,
     "word": "BÖCE",
-    "hex": "#B0CE",
+    "hex": "B0CE",
     "meanings": ["Böcü"]
   },
   {
+    "id": 333,
     "word": "CABA",
-    "hex": "#CABA",
+    "hex": "CABA",
     "meanings": [
       "Bir şey ödemeden, para vermeden alınan şey, bedava",
       "(ca'ba) Fazla olarak, fazladan, üstelik"
     ]
   },
   {
+    "id": 334,
     "word": "CADI",
-    "hex": "#CAD1",
+    "hex": "CAD1",
     "meanings": [
       "Geceleri dolaşarak insanlara kötülük ettiğine inanılan hortlak",
       "Kötülük yaparak başkalarına zarar veren kadın",
@@ -2272,79 +2602,93 @@
     ]
   },
   {
+    "id": 335,
     "word": "CAİZ",
-    "hex": "#CA12",
+    "hex": "CA12",
     "meanings": [
       "Din, yasa, töre vb. bakımdan işlenmesinde, yapılmasında sakınca olmayan, yapılıp işlenmesine izin verilen",
       "Uygun, yerinde sayılan, yakışık alan"
     ]
   },
   {
+    "id": 336,
     "word": "CEBE",
-    "hex": "#CEBE",
+    "hex": "CEBE",
     "meanings": ["Zırh", "Silah"]
   },
   {
+    "id": 337,
     "word": "CEDİ",
-    "hex": "#CED1",
+    "hex": "CED1",
     "meanings": ["Oğlak"]
   },
   {
+    "id": 338,
     "word": "CEFA",
-    "hex": "#CEFA",
+    "hex": "CEFA",
     "meanings": ["Zulüm"]
   },
   {
+    "id": 339,
     "word": "CETBECET",
-    "hex": "#CE7BECE7",
+    "hex": "CE7BECE7",
     "meanings": ["Atalardan beri, soyca"]
   },
   {
+    "id": 340,
     "word": "CEZA",
-    "hex": "#CE2A",
+    "hex": "CE2A",
     "meanings": [
       "Uygunsuz davranışlarda bulunanlara uygulanan üzüntü, sıkıntı, acı verici işlem veya yaptırım",
       "Suç işleyen bir kimsenin yaşantısına, özgürlüğüne, mallarına, onuruna karşı yasaların öngördüğü yaptırım"
     ]
   },
   {
+    "id": 341,
     "word": "CEZBEDİŞ",
-    "hex": "#CE2BED15",
+    "hex": "CE2BED15",
     "meanings": ["Cezbetme işi"]
   },
   {
+    "id": 342,
     "word": "CEZBESİZ",
-    "hex": "#CE2BE512",
+    "hex": "CE2BE512",
     "meanings": ["Cezbesi olmayan"]
   },
   {
+    "id": 343,
     "word": "CİCİ",
-    "hex": "#C1C1",
+    "hex": "C1C1",
     "meanings": ["Sevimli, cana yakın, hoş, güzel, hoşa giden"]
   },
   {
+    "id": 344,
     "word": "CİCİBABA",
-    "hex": "#C1C1BABA",
+    "hex": "C1C1BABA",
     "meanings": ["Üvey baba"]
   },
   {
+    "id": 345,
     "word": "CİDE",
-    "hex": "#C1DE",
+    "hex": "C1DE",
     "meanings": ["Kastamonu iline bağlı ilçelerden biri"]
   },
   {
+    "id": 346,
     "word": "CİFE",
-    "hex": "#C1FE",
+    "hex": "C1FE",
     "meanings": ["Leş", "İğrenç"]
   },
   {
+    "id": 347,
     "word": "DADI",
-    "hex": "#DAD1",
+    "hex": "DAD1",
     "meanings": ["Evlerde çocuğa bakan kimse, daye"]
   },
   {
+    "id": 348,
     "word": "DAĞITICI",
-    "hex": "#DA6171C1",
+    "hex": "DA6171C1",
     "meanings": [
       "Mektup, gazete vb. şeyleri dolaşarak dağıtan kimse, müvezzi",
       "Bir malın önceden belirlenmiş bölgelere gönderilmesini sağlayan kişi veya kuruluş",
@@ -2352,26 +2696,30 @@
     ]
   },
   {
+    "id": 349,
     "word": "DAĞİ",
-    "hex": "#DA61",
+    "hex": "DA61",
     "meanings": ["Dağlık bölgelerde söylenen türkülerin makamı"]
   },
   {
+    "id": 350,
     "word": "DATA",
-    "hex": "#DA7A",
+    "hex": "DA7A",
     "meanings": [
       "Veri",
       "Aslında kendileri ekonomik olmayan ancak ekonomi dünyasını dışarıdan kuşatan veya çerçeveleyen, nüfus, teknik bilgi, hukuk düzeni ve yönetim biçimi ögelerinden her biri"
     ]
   },
   {
+    "id": 351,
     "word": "DEBİ",
-    "hex": "#DEB1",
+    "hex": "DEB1",
     "meanings": ["Bir akarsuyun herhangi bir kesiminden saniyede geçen suyun hacmi, akım"]
   },
   {
+    "id": 352,
     "word": "DEDE",
-    "hex": "#DEDE",
+    "hex": "DEDE",
     "meanings": [
       "Torunu olan erkek, büyükbaba, büyükpeder",
       "Büyükbabadan başlayarak geriye doğru atalardan her biri",
@@ -2380,47 +2728,55 @@
     ]
   },
   {
+    "id": 353,
     "word": "DEFA",
-    "hex": "#DEFA",
+    "hex": "DEFA",
     "meanings": ["Kez, kere, sefer, yol"]
   },
   {
+    "id": 354,
     "word": "DEFİ",
-    "hex": "#DEF1",
+    "hex": "DEF1",
     "meanings": [
       "Taraflardan birinin kendisine açılan davada borçtan kurtulmak için başvurduğu her türlü yol"
     ]
   },
   {
+    "id": 355,
     "word": "DEFO",
-    "hex": "#DEF0",
+    "hex": "DEF0",
     "meanings": ["Kusur, özür, bozukluk"]
   },
   {
+    "id": 356,
     "word": "DEĞİŞİCİ",
-    "hex": "#DE6151C1",
+    "hex": "DE6151C1",
     "meanings": ["Biçimden biçime giren, değişken"]
   },
   {
+    "id": 357,
     "word": "DIZDIZCI",
-    "hex": "#D12D12C1",
+    "hex": "D12D12C1",
     "meanings": [
       "Basit makinelerle fazla özenilmeden kâğıtlara renkli olarak basılan paraları piyasaya süren kimse"
     ]
   },
   {
+    "id": 358,
     "word": "DİBA",
-    "hex": "#D1BA",
+    "hex": "D1BA",
     "meanings": ["Altın ve gümüş işlemeli bir tür ipek kumaş"]
   },
   {
+    "id": 359,
     "word": "DİDE",
-    "hex": "#D1DE",
+    "hex": "D1DE",
     "meanings": ["Göz"]
   },
   {
+    "id": 360,
     "word": "DİŞİ",
-    "hex": "#D151",
+    "hex": "D151",
     "meanings": [
       "Yumurta oluşturan veya yavru doğuran (birey)",
       "Erkeği tarafından döllenecek biçimde oluşmuş (hayvan veya bitki)",
@@ -2432,18 +2788,21 @@
     ]
   },
   {
+    "id": 361,
     "word": "DİZE",
-    "hex": "#D12E",
+    "hex": "D12E",
     "meanings": ["Şiirin satırlarından her biri, mısra"]
   },
   {
+    "id": 362,
     "word": "DİZGESİZ",
-    "hex": "#D126E512",
+    "hex": "D126E512",
     "meanings": ["Dizgesi olmayan, dizgeye bağlı olmayan, sistemsiz"]
   },
   {
+    "id": 363,
     "word": "DİZİ",
-    "hex": "#D121",
+    "hex": "D121",
     "meanings": [
       "Bir iplik veya tel üzerine dizilmiş inci, boncuk vb.nin oluşturduğu bütün, sıra",
       "Herhangi bir bakımdan bir bütün oluşturan şeylerin tümü, seri",
@@ -2456,8 +2815,9 @@
     ]
   },
   {
+    "id": 364,
     "word": "DOĞA",
-    "hex": "#D06A",
+    "hex": "D06A",
     "meanings": [
       "Kendi kuralları çerçevesinde sürekli gelişen, değişen canlı ve cansız varlıkların hepsi, tabiat, natür",
       "İnsan eliyle büyük değişikliğe uğramamış, doğal yapısını koruyan çevre, tabiat",
@@ -2465,8 +2825,9 @@
     ]
   },
   {
+    "id": 365,
     "word": "DOST",
-    "hex": "#D057",
+    "hex": "D057",
     "meanings": [
       "Sevilen, güvenilen, yakın arkadaş, gönüldaş, iyi anlaşılan kimse, düşman karşıtı",
       "Erkek veya kadının evlilik dışı ilişki kurduğu kimse, zamazingo",
@@ -2476,43 +2837,50 @@
     ]
   },
   {
+    "id": 366,
     "word": "EBAT",
-    "hex": "#EBA7",
+    "hex": "EBA7",
     "meanings": ["Boyut"]
   },
   {
+    "id": 367,
     "word": "EBET",
-    "hex": "#EBE7",
+    "hex": "EBE7",
     "meanings": ["Sonu olmayan gelecek zaman, sonsuzluk"]
   },
   {
+    "id": 368,
     "word": "ECZA",
-    "hex": "#EC2A",
+    "hex": "EC2A",
     "meanings": [
       "Canlılardaki rahatsızlıkların bozuklukların ve çeşitli hastalıkların tanısı, önlenmesi veya tedavisi için yararlanılan doğal veya sentez yoluyla hazırlanmış madde",
       "Çeşitli amaçlarla kullanılan kimyasal madde"
     ]
   },
   {
+    "id": 369,
     "word": "EDAT",
-    "hex": "#EDA7",
+    "hex": "EDA7",
     "meanings": [
       "Tek başına anlamı olmayan, sonuna geldiği sözle cümledeki diğer kelimeler arasında ilişki kuran kelime türü, ilgeç: Ev gibi huzur köşesi olmaz. Çocuk sabaha karşı uyudu"
     ]
   },
   {
+    "id": 370,
     "word": "EĞİŞ",
-    "hex": "#E615",
+    "hex": "E615",
     "meanings": ["Eğme işi"]
   },
   {
+    "id": 371,
     "word": "EĞSİ",
-    "hex": "#E651",
+    "hex": "E651",
     "meanings": ["Ucu yanmış odun, köseği"]
   },
   {
+    "id": 372,
     "word": "ESAS",
-    "hex": "#E5A5",
+    "hex": "E5A5",
     "meanings": [
       "Bir şeyin özünü oluşturan ana öge, temel",
       "Bir iş veya sözde doğru biçim",
@@ -2520,26 +2888,30 @@
     ]
   },
   {
+    "id": 373,
     "word": "ESEF",
-    "hex": "#E5EF",
+    "hex": "E5EF",
     "meanings": ["Üzüntü, kaygı, tasa", "Yerinme"]
   },
   {
+    "id": 374,
     "word": "ESİŞ",
-    "hex": "#E515",
+    "hex": "E515",
     "meanings": ["Esme işi"]
   },
   {
+    "id": 375,
     "word": "EŞİT",
-    "hex": "#E517",
+    "hex": "E517",
     "meanings": [
       "Yapı, değer, boyut, nicelik ve nitelik bakımından birbirinden ne artık ne eksik olmayan (iki veya daha çok şey), müsavi",
       "Aynı haklardan yararlanan, aynı düzeyde olan (kimse)"
     ]
   },
   {
+    "id": 376,
     "word": "EZGİ",
-    "hex": "#E261",
+    "hex": "E261",
     "meanings": [
       "Belli bir kurallara göre düzenlenmiş, kulağa hoş gelen ses dizisi, haz, nağme, melodi",
       "Bir müzik parçasında baştan sona kadar belirli yerlerde tekrarlanan ses dizisi",
@@ -2549,100 +2921,117 @@
     ]
   },
   {
+    "id": 377,
     "word": "FAİZ",
-    "hex": "#FA12",
+    "hex": "FA12",
     "meanings": [
       "İşletmek için bir yere ödünç verilen paraya karşılık alınan kâr, getiri, ürem, nema",
       "Kapitalist ekonomide, artık değerin değişikliğe uğramış biçimi olarak paranın fiyatı, kiralanan paranın kira bedeli"
     ]
   },
   {
+    "id": 378,
     "word": "FECİ",
-    "hex": "#FEC1",
+    "hex": "FEC1",
     "meanings": ["Acıklı, çok acıklı, yürekler acısı, trajik"]
   },
   {
+    "id": 379,
     "word": "FEDA",
-    "hex": "#FEDA",
+    "hex": "FEDA",
     "meanings": ["Bir amaç uğrunda bir değer veya varlıktan vazgeçme, uğruna verme"]
   },
   {
+    "id": 380,
     "word": "FETİŞİST",
-    "hex": "#FE715157",
+    "hex": "FE715157",
     "meanings": ["Fetişizmi uygulayan kimse veya görüş", "Fetişizme düşkün kimse"]
   },
   {
+    "id": 381,
     "word": "FEZA",
-    "hex": "#FE2A",
+    "hex": "FE2A",
     "meanings": ["Gök"]
   },
   {
+    "id": 382,
     "word": "FİDE",
-    "hex": "#F1DE",
+    "hex": "F1DE",
     "meanings": [
       "Tohumdan yetiştirilip başka yerlere dikilmek için hazırlanan sebze veya körpe çiçek"
     ]
   },
   {
+    "id": 383,
     "word": "FİŞE",
-    "hex": "#F15E",
+    "hex": "F15E",
     "meanings": [
       "Bazı mobilya kilitlerinin içinde bulunan, birbirinin benzeri fakat farklı ölçüdeki uçları yaylı kilit elemanı"
     ]
   },
   {
+    "id": 384,
     "word": "FOBİ",
-    "hex": "#F0B1",
+    "hex": "F0B1",
     "meanings": ["Belirli nesneler veya durumlar karşısında duyulan olağan dışı güçlü korku, yılgı"]
   },
   {
+    "id": 385,
     "word": "FOŞA",
-    "hex": "#F05A",
+    "hex": "F05A",
     "meanings": ["Tombul fındık grubunda standart bir tür fındık"]
   },
   {
+    "id": 386,
     "word": "FOTA",
-    "hex": "#F07A",
+    "hex": "F07A",
     "meanings": ["İçinde şarap yapılan bir tür fıçı"]
   },
   {
+    "id": 387,
     "word": "FOTO",
-    "hex": "#F070",
+    "hex": "F070",
     "meanings": ["Işık", "Fotoğraf"]
   },
   {
+    "id": 388,
     "word": "GABİ",
-    "hex": "#6AB1",
+    "hex": "6AB1",
     "meanings": ["Anlayışsız, ahmak, ebleh, kalın kafalı, bön"]
   },
   {
+    "id": 389,
     "word": "GACI",
-    "hex": "#6AC1",
+    "hex": "6AC1",
     "meanings": ["Kadın, dost, sevgili, metres", "Torik yavrusu"]
   },
   {
+    "id": 390,
     "word": "GAGA",
-    "hex": "#6A6A",
+    "hex": "6A6A",
     "meanings": [
       "Genellikle kuşlarda ağzın bir uzantısı durumunda olan, biçim ve büyüklüğü değişik, boynuz yapısında, katı ve çıkıntılı organ",
       "Ağız"
     ]
   },
   {
+    "id": 391,
     "word": "GATO",
-    "hex": "#6A70",
+    "hex": "6A70",
     "meanings": ["Pasta, çörek"]
   },
   {
+    "id": 392,
     "word": "GAZA",
-    "hex": "#6A2A",
+    "hex": "6A2A",
     "meanings": [
       "İslam dinini korumak veya yaymak amacıyla Müslüman olmayanlara karşı yapılan kutsal savaş"
     ]
   },
   {
+    "id": 393,
     "word": "GAZETECİ",
-    "hex": "#6A2E7EC1",
+    "hex": "6A2E7EC1",
     "meanings": [
       "Gazete yayımlayan kimse",
       "Gazeteye yazı yazmayı, haber toplayıp vermeyi veya gazetenin yazı işlerinde çalışmayı iş edinen kimse",
@@ -2650,8 +3039,9 @@
     ]
   },
   {
+    "id": 394,
     "word": "GAZİ",
-    "hex": "#6A21",
+    "hex": "6A21",
     "meanings": [
       "Müslümanlıkta düşmanla savaşan veya savaş yapmış kimse",
       "Olağanüstü yararlıklar göstererek düşmanı yenen komutanlara devlet tarafından verilen onur unvanı",
@@ -2659,8 +3049,9 @@
     ]
   },
   {
+    "id": 395,
     "word": "GEBE",
-    "hex": "#6EBE",
+    "hex": "6EBE",
     "meanings": [
       "Karnında yavru bulunan (kadın veya hayvan), yüklü, hamile, iki canlı, aylı",
       "İçinde oğulcuk veya dölüt bulunan (döl yatağı)",
@@ -2669,8 +3060,9 @@
     ]
   },
   {
+    "id": 396,
     "word": "GECE",
-    "hex": "#6ECE",
+    "hex": "6ECE",
     "meanings": [
       "Genellikle saat 22.00'den itibaren gün ağarıncaya kadar geçen süre, tün, şeb",
       "Bu süre içindeki karanlık",
@@ -2679,13 +3071,15 @@
     ]
   },
   {
+    "id": 397,
     "word": "GEDA",
-    "hex": "#6EDA",
+    "hex": "6EDA",
     "meanings": ["Dilenci", "Yoksul, fakir"]
   },
   {
+    "id": 398,
     "word": "GEZİ",
-    "hex": "#6E21",
+    "hex": "6E21",
     "meanings": [
       "Ülkeler veya şehirler arasında yapılan uzun yolculuk, seyahat",
       "Gezmek, görmek, eğlenmek amacıyla yapılan yolculuk",
@@ -2696,18 +3090,21 @@
     ]
   },
   {
+    "id": 399,
     "word": "GIDA",
-    "hex": "#61DA",
+    "hex": "61DA",
     "meanings": ["Besin"]
   },
   {
+    "id": 400,
     "word": "GIGI",
-    "hex": "#6161",
+    "hex": "6161",
     "meanings": ["Çocuk dilinde çene altı"]
   },
   {
+    "id": 401,
     "word": "GİBİ",
-    "hex": "#61B1",
+    "hex": "61B1",
     "meanings": [
       "-e benzer",
       "O anda, tam o sırada, hemen arkasından",
@@ -2716,33 +3113,38 @@
     ]
   },
   {
+    "id": 402,
     "word": "GİDİ",
-    "hex": "#61D1",
+    "hex": "61D1",
     "meanings": ["Azarlama sözü", "Ahlaksız, pezevenk"]
   },
   {
+    "id": 403,
     "word": "GİŞE",
-    "hex": "#615E",
+    "hex": "615E",
     "meanings": [
       "İstasyon, sinema, banka, mağaza ve bazı giriş kapılarında bilet veya para alıp verilen, çoğu küçük pencere biçiminde olan yer, şalter"
     ]
   },
   {
+    "id": 404,
     "word": "GÖCE",
-    "hex": "#60CE",
+    "hex": "60CE",
     "meanings": [
       "Tarhana, bulgur yapmak için kullanılan kabuğu soyulmuş ve kırılmış buğday",
       "Yarılmış ve kırılmış bulgurdan yapılan çorba"
     ]
   },
   {
+    "id": 405,
     "word": "GÖZE",
-    "hex": "#602E",
+    "hex": "602E",
     "meanings": ["Hücre", "Su kaynağı"]
   },
   {
+    "id": 406,
     "word": "GÖZETİCİ",
-    "hex": "#602E71C1",
+    "hex": "602E71C1",
     "meanings": [
       "Gözetleme yapan kimse",
       "Koruyucu kimse",
@@ -2750,8 +3152,9 @@
     ]
   },
   {
+    "id": 407,
     "word": "İADE",
-    "hex": "#1ADE",
+    "hex": "1ADE",
     "meanings": [
       "Alınmış bir şeyi geri verme",
       "Verilen bir şeyi almayarak geri çevirme, reddetme",
@@ -2760,105 +3163,124 @@
     ]
   },
   {
+    "id": 408,
     "word": "İAŞE",
-    "hex": "#1A5E",
+    "hex": "1A5E",
     "meanings": ["Yedirip içirme, besleme, bakma"]
   },
   {
+    "id": 409,
     "word": "İBDA",
-    "hex": "#1BDA",
+    "hex": "1BDA",
     "meanings": ["Yaratma, yoktan var etme"]
   },
   {
+    "id": 410,
     "word": "İBİS",
-    "hex": "#1B15",
+    "hex": "1B15",
     "meanings": [
       "Leyleksilerden, Afrika ve Batı Asya'nın sulak yerlerinde yaşayan bir kuş, Mısır turnası (İbis aethiopica)"
     ]
   },
   {
+    "id": 411,
     "word": "İBİŞ",
-    "hex": "#1B15",
+    "hex": "1B15",
     "meanings": ["Orta oyununda çoğu kez aptal uşak rolünü oynayan komedyen", "Şapşal"]
   },
   {
+    "id": 412,
     "word": "İCAT",
-    "hex": "#1CA7",
+    "hex": "1CA7",
     "meanings": ["Buluş", "Gerçekmiş gibi gösterme çabası"]
   },
   {
+    "id": 413,
     "word": "İCAZ",
-    "hex": "#1CA2",
+    "hex": "1CA2",
     "meanings": ["Az sözle çok şey anlatma"]
   },
   {
+    "id": 414,
     "word": "İDDİASIZ",
-    "hex": "#1DD1A512",
+    "hex": "1DD1A512",
     "meanings": ["Bir iddiası olmayan", "Alçak gönüllü, mütevazı"]
   },
   {
+    "id": 415,
     "word": "İDEA",
-    "hex": "#1DEA",
+    "hex": "1DEA",
     "meanings": ["Düşünce"]
   },
   {
+    "id": 416,
     "word": "İFADESİZ",
-    "hex": "#1FADE512",
+    "hex": "1FADE512",
     "meanings": ["Belli bir ifade taşımayan"]
   },
   {
+    "id": 417,
     "word": "İFFETSİZ",
-    "hex": "#1FFE7512",
+    "hex": "1FFE7512",
     "meanings": ["İffetini korumayan, silisiz"]
   },
   {
+    "id": 418,
     "word": "İFŞA",
-    "hex": "#1F5A",
+    "hex": "1F5A",
     "meanings": ["Gizli bir şeyi açığa çıkarma, yayma"]
   },
   {
+    "id": 419,
     "word": "İFTA",
-    "hex": "#1F7A",
+    "hex": "1F7A",
     "meanings": ["Fetva verme"]
   },
   {
+    "id": 420,
     "word": "İĞCİ",
-    "hex": "#16C1",
+    "hex": "16C1",
     "meanings": ["İğ kullanan, yapan veya satan kimse"]
   },
   {
+    "id": 421,
     "word": "İĞDE",
-    "hex": "#16DE",
+    "hex": "16DE",
     "meanings": [
       "İğdegillerden, kokulu, sarı çiçekleri olan, çalı biçiminde bir ağaç (Elaeagnus)",
       "Bu ağacın zeytin biçiminde, kabuğu kırmızıya çalan sarı renkte, beyaz unlu, tadı mayhoş yemişi"
     ]
   },
   {
+    "id": 422,
     "word": "İSOT",
-    "hex": "#1507",
+    "hex": "1507",
     "meanings": ["Kırmızı, acı biber"]
   },
   {
+    "id": 423,
     "word": "İSTİBDAT",
-    "hex": "#1571BDA7",
+    "hex": "1571BDA7",
     "meanings": [
       "Uyruklarına hiçbir hak ve özgürlük tanımayan sınırsız monarşi, despotluk, despotizm"
     ]
   },
   {
+    "id": 424,
     "word": "İSTİFADE",
-    "hex": "#1571FADE",
+    "hex": "1571FADE",
     "meanings": ["Yararlanma"]
   },
   {
+    "id": 425,
     "word": "İŞBA",
-    "hex": "#15BA",
+    "hex": "15BA",
     "meanings": ["Doyurma", "Doyma"]
   },
   {
+    "id": 426,
     "word": "İŞTE",
-    "hex": "#157E",
+    "hex": "157E",
     "meanings": [
       "Bir şey gösterilirken veya bir şeye işaret edilirken söylenen bir söz; bak, aha, ahacık",
       "Anlatılan bir sözün sonucuna gelindiğini gösterir",
@@ -2866,74 +3288,87 @@
     ]
   },
   {
+    "id": 427,
     "word": "İTAATSİZ",
-    "hex": "#17AA7512",
+    "hex": "17AA7512",
     "meanings": ["Söz dinlemez, buyruk dinlemez, kendi başına buyruk olan (kimse)"]
   },
   {
+    "id": 428,
     "word": "İTFA",
-    "hex": "#17FA",
+    "hex": "17FA",
     "meanings": ["Söndürme", "Sönüm", "Sönüm"]
   },
   {
+    "id": 429,
     "word": "İTİŞ",
-    "hex": "#1715",
+    "hex": "1715",
     "meanings": ["İtme işi"]
   },
   {
+    "id": 430,
     "word": "İZAZ",
-    "hex": "#12A2",
+    "hex": "12A2",
     "meanings": ["Ağırlama"]
   },
   {
+    "id": 431,
     "word": "İZBE",
-    "hex": "#12BE",
+    "hex": "12BE",
     "meanings": ["Basık, loş, nemli, kuytu (yer)", "Sapa"]
   },
   {
+    "id": 432,
     "word": "İZCİ",
-    "hex": "#12C1",
+    "hex": "12C1",
     "meanings": [
       "İz güderek aradığını bulabilen kimse, keşşaf",
       "Dayanışma ve yardımlaşma duygularını geliştirmek, ruhça ve bedence güçlendirilmek için kamplarda ve okullarda eğitilen genç"
     ]
   },
   {
+    "id": 433,
     "word": "İZGE",
-    "hex": "#126E",
+    "hex": "126E",
     "meanings": ["Çeşitlilik"]
   },
   {
+    "id": 434,
     "word": "OBEZ",
-    "hex": "#0BE2",
+    "hex": "0BE2",
     "meanings": ["Çok şişman"]
   },
   {
+    "id": 435,
     "word": "OFİS",
-    "hex": "#0F15",
+    "hex": "0F15",
     "meanings": ["İş yeri, daire, büro"]
   },
   {
+    "id": 436,
     "word": "OTAĞ",
-    "hex": "#07A6",
+    "hex": "07A6",
     "meanings": ["Büyük ve süslü çadır, çerge"]
   },
   {
+    "id": 437,
     "word": "ÖZET",
-    "hex": "#02E7",
+    "hex": "02E7",
     "meanings": [
       "Bir yazı veya sözün anlamını daha kısa ve özlü biçimde veren yazı veya söz, hülasa, fezleke, ekspoze",
       "Filmin konusunu en kısa biçimde anlatan, bir senaryo çalışmasının ilk basamağı olan metin"
     ]
   },
   {
+    "id": 438,
     "word": "ÖZGE",
-    "hex": "#026E",
+    "hex": "026E",
     "meanings": ["Başka"]
   },
   {
+    "id": 439,
     "word": "SAAT",
-    "hex": "#5AA7",
+    "hex": "5AA7",
     "meanings": [
       "Bir günlük sürenin yirmi dörtte birine eşit, altmış dakikalık zaman dilimi, zaman parçası",
       "Vakit, zaman",
@@ -2943,31 +3378,36 @@
     ]
   },
   {
+    "id": 440,
     "word": "SABA",
-    "hex": "#5ABA",
+    "hex": "5ABA",
     "meanings": ["Sabah yeli", "Klasik Türk müziğinde bir birleşik makam"]
   },
   {
+    "id": 441,
     "word": "SABİ",
-    "hex": "#5AB1",
+    "hex": "5AB1",
     "meanings": ["Küçük çocuk"]
   },
   {
+    "id": 442,
     "word": "SABO",
-    "hex": "#5AB0",
+    "hex": "5AB0",
     "meanings": [
       "Genellikle birçok Avrupa ülkesinde giyilen tahta ayakkabı",
       "Üzerinde deri vb. bant bulunan bir sandalet türü"
     ]
   },
   {
+    "id": 443,
     "word": "SADA",
-    "hex": "#5ADA",
+    "hex": "5ADA",
     "meanings": ["seda"]
   },
   {
+    "id": 444,
     "word": "SADE",
-    "hex": "#5ADE",
+    "hex": "5ADE",
     "meanings": [
       "Süsü, gösterişi olmayan, yalın, gösterişsiz",
       "Şeker katılmamış (kahve)",
@@ -2976,93 +3416,111 @@
     ]
   },
   {
+    "id": 445,
     "word": "SAFA",
-    "hex": "#5AFA",
+    "hex": "5AFA",
     "meanings": ["sefa"]
   },
   {
+    "id": 446,
     "word": "SAFİ",
-    "hex": "#5AF1",
+    "hex": "5AF1",
     "meanings": ["Katıksız, duru, temiz", "Net", "(sa:'fi) Yalnız olarak, yalnız, sadece"]
   },
   {
+    "id": 447,
     "word": "SAĞI",
-    "hex": "#5A61",
+    "hex": "5A61",
     "meanings": ["Kuş tersi, kuş gübresi"]
   },
   {
+    "id": 448,
     "word": "SASI",
-    "hex": "#5A51",
+    "hex": "5A51",
     "meanings": ["Küf ve çürük gibi kokan", "Kokuşmuş", "Tatsız"]
   },
   {
+    "id": 449,
     "word": "SATI",
-    "hex": "#5A71",
+    "hex": "5A71",
     "meanings": ["Satma işi, satış", "Adanmış"]
   },
   {
+    "id": 450,
     "word": "SEBATSIZ",
-    "hex": "#5EBA7512",
+    "hex": "5EBA7512",
     "meanings": ["Sebat etmeyen"]
   },
   {
+    "id": 451,
     "word": "SEBZESİZ",
-    "hex": "#5EB2E512",
+    "hex": "5EB2E512",
     "meanings": ["İçinde sebze bulunmayan"]
   },
   {
+    "id": 452,
     "word": "SECİ",
-    "hex": "#5EC1",
+    "hex": "5EC1",
     "meanings": ["Nesirde yapılan uyak"]
   },
   {
+    "id": 453,
     "word": "SEDA",
-    "hex": "#5EDA",
+    "hex": "5EDA",
     "meanings": ["Ses"]
   },
   {
+    "id": 454,
     "word": "SEFA",
-    "hex": "#5EFA",
+    "hex": "5EFA",
     "meanings": ["Gönül rahatlığı, rahatlık, kaygısız ve sakin olma", "Eğlence, zevk, neşe"]
   },
   {
+    "id": 455,
     "word": "SESSİZCE",
-    "hex": "#5E5512CE",
+    "hex": "5E5512CE",
     "meanings": ["Sessiz bir biçimde, sessiz olarak, sessizcesine", "Tedirginlik çıkarmayarak"]
   },
   {
+    "id": 456,
     "word": "SEZA",
-    "hex": "#5E2A",
+    "hex": "5E2A",
     "meanings": ["Uygun, yaraşır, bir şeye değer"]
   },
   {
+    "id": 457,
     "word": "SEZGİSİZ",
-    "hex": "#5E261512",
+    "hex": "5E261512",
     "meanings": ["Sezgi ile edinilmeyen, sezgiye dayanmayan"]
   },
   {
+    "id": 458,
     "word": "SEZİ",
-    "hex": "#5E21",
+    "hex": "5E21",
     "meanings": ["Sezgi"]
   },
   {
+    "id": 459,
     "word": "SIFATSIZ",
-    "hex": "#51FA7512",
+    "hex": "51FA7512",
     "meanings": ["Unvanı, sıfatı olmayan", "Suratsız (kimse)"]
   },
   {
+    "id": 460,
     "word": "SIĞA",
-    "hex": "#516A",
+    "hex": "516A",
     "meanings": ["Kapasite"]
   },
   {
+    "id": 461,
     "word": "SIZI",
-    "hex": "#5121",
+    "hex": "5121",
     "meanings": ["Hafif ve ince ağrı", "Ruhsal acı, ızdırap"]
   },
   {
+    "id": 462,
     "word": "SİTE",
-    "hex": "#517E",
+    "hex": "517E",
     "meanings": [
       "Genellikle belli meslek adamları için yapılmış veya belli amaçlarla kurulmuş konutlar topluluğu, iş merkezi",
       "Şehir",
@@ -3072,74 +3530,86 @@
     ]
   },
   {
+    "id": 463,
     "word": "SOBA",
-    "hex": "#50BA",
+    "hex": "50BA",
     "meanings": ["İçinde kömür, odun veya gaz yakılan, elektrikle de çalıştırılabilen ısınma aracı"]
   },
   {
+    "id": 464,
     "word": "SOBE",
-    "hex": "#50BE",
+    "hex": "50BE",
     "meanings": [
       "Genellikle kovalamaca, saklambaç vb. çocuk oyunlarında, ebeden önce davranıp daha önce kararlaştırılmış yere ulaşıldığında söylenen söz"
     ]
   },
   {
+    "id": 465,
     "word": "SODA",
-    "hex": "#50DA",
+    "hex": "50DA",
     "meanings": [
       "Sindirimi kolaylaştırmak, susuzluğu gidermek, içkileri sulandırmak için kullanılan, içinde sodyum karbonat bulunan, köpüren su",
       "Temizlik işlerinde kullanılan bir çeşit tuz"
     ]
   },
   {
+    "id": 466,
     "word": "SOFA",
-    "hex": "#50FA",
+    "hex": "50FA",
     "meanings": ["Evlerde oda kapılarının açıldığı genişçe yer, hol"]
   },
   {
+    "id": 467,
     "word": "SOTA",
-    "hex": "#507A",
+    "hex": "507A",
     "meanings": ["Uygun, elverişli (yer)"]
   },
   {
+    "id": 468,
     "word": "SOTE",
-    "hex": "#507E",
+    "hex": "507E",
     "meanings": [
       "Küçük küçük doğranmış et, ciğer, böbrek vb. şeyler yağda hafifçe kavrulduktan sonra su, domates, biber vb. katılarak yapılan yemek"
     ]
   },
   {
+    "id": 469,
     "word": "SÖBE",
-    "hex": "#50BE",
+    "hex": "50BE",
     "meanings": ["Biçimi yumurta gibi olan, beyzi, oval"]
   },
   {
+    "id": 470,
     "word": "STAT",
-    "hex": "#57A7",
+    "hex": "57A7",
     "meanings": ["Stadyum"]
   },
   {
+    "id": 471,
     "word": "ŞAFT",
-    "hex": "#5AF7",
+    "hex": "5AF7",
     "meanings": [
       "Bir makinenin dönme hareketini öteki parçalara aktaran ve ucuna dişli çarklar, tekerlekler veya pervane bağlanan demir mil"
     ]
   },
   {
+    "id": 472,
     "word": "ŞAİBESİZ",
-    "hex": "#5A1BE512",
+    "hex": "5A1BE512",
     "meanings": ["Şaibesi olmayan"]
   },
   {
+    "id": 473,
     "word": "ŞASE",
-    "hex": "#5A5E",
+    "hex": "5A5E",
     "meanings": [
       "İçine mendil, gecelik vb. şeyleri koymaya yarayan, çeşitli büyüklükte, kumaştan koruncak"
     ]
   },
   {
+    "id": 474,
     "word": "ŞASİ",
-    "hex": "#5A51",
+    "hex": "5A51",
     "meanings": [
       "Motorlu kara taşıtlarının iskelet bölümü",
       "Fotoğrafçılıkta içine duyarlı bir cam veya kâğıt konulan, yassı, ışık geçirmez kutu",
@@ -3147,36 +3617,42 @@
     ]
   },
   {
+    "id": 475,
     "word": "ŞAŞAASIZ",
-    "hex": "#5A5AA512",
+    "hex": "5A5AA512",
     "meanings": ["Görkemsiz", "Parıltısı olmayan"]
   },
   {
+    "id": 476,
     "word": "ŞAŞI",
-    "hex": "#5A51",
+    "hex": "5A51",
     "meanings": ["Birbirine paralel görme ekseni olmayan (göz veya kimse)", "Gözlerini çarpıtarak"]
   },
   {
+    "id": 477,
     "word": "ŞATO",
-    "hex": "#5A70",
+    "hex": "5A70",
     "meanings": [
       "Avrupa'da soylu kimselerin oturduğu, çevresi hendek, sur ve kulelerle çevrili konak",
       "Geniş toprağı olan büyük konut"
     ]
   },
   {
+    "id": 478,
     "word": "ŞECİ",
-    "hex": "#5EC1",
+    "hex": "5EC1",
     "meanings": ["Yürekli, yiğit"]
   },
   {
+    "id": 479,
     "word": "ŞİFA",
-    "hex": "#51FA",
+    "hex": "51FA",
     "meanings": ["Bedensel veya ruhsal bir hastalığın son bulması, hastalıktan kurtulma, onma"]
   },
   {
+    "id": 480,
     "word": "ŞİST",
-    "hex": "#5157",
+    "hex": "5157",
     "meanings": [
       "Kolayca yapraklara ayrılabilen, silisli, alüminli tortul kayaçların genel adı",
       "Kömürle karışık bütün moloz maddelerinin bilimsel adı",
@@ -3184,8 +3660,9 @@
     ]
   },
   {
+    "id": 481,
     "word": "ŞİŞE",
-    "hex": "#515E",
+    "hex": "515E",
     "meanings": [
       "İçerisine sıvı konulan, cam veya plastikten yapılmış, dar ağızlı uzun kap",
       "Bu kabın aldığı miktarda olan",
@@ -3194,41 +3671,48 @@
     ]
   },
   {
+    "id": 482,
     "word": "ŞİTA",
-    "hex": "#517A",
+    "hex": "517A",
     "meanings": ["Kış"]
   },
   {
+    "id": 483,
     "word": "ŞOSE",
-    "hex": "#505E",
+    "hex": "505E",
     "meanings": ["Genellikle taş kırıkları üzerine kum döşenip silindir geçirilerek yapılan yol"]
   },
   {
+    "id": 484,
     "word": "TAAT",
-    "hex": "#7AA7",
+    "hex": "7AA7",
     "meanings": ["Allah'ın buyruklarını yerine getirme, ibadet etme"]
   },
   {
+    "id": 485,
     "word": "TABA",
-    "hex": "#7ABA",
+    "hex": "7ABA",
     "meanings": ["Kuru tütün yaprağını andıran kızılımsı kahverengi, tütün rengi", "Bu renkte olan"]
   },
   {
+    "id": 486,
     "word": "TABİ",
-    "hex": "#7AB1",
+    "hex": "7AB1",
     "meanings": ["Bağımlı", "Basıcı", "Yayımcı"]
   },
   {
+    "id": 487,
     "word": "TASA",
-    "hex": "#7A5A",
+    "hex": "7A5A",
     "meanings": [
       "Üzüntülü düşünce durumu, kaygı, endişe, gam",
       "Tatmin edici olmayan veya tedirgin eden durumların ortaya çıkmasını önleyebilmede, güvensizlik içinde bulunulduğunda duyulan tedirgin edici duygu"
     ]
   },
   {
+    "id": 488,
     "word": "TAZE",
-    "hex": "#7A2E",
+    "hex": "7A2E",
     "meanings": [
       "Bozulmamış, bayatlamamış olan",
       "Dinç, yıpranmamış, yorulmamış",
@@ -3238,20 +3722,23 @@
     ]
   },
   {
+    "id": 489,
     "word": "TAZI",
-    "hex": "#7A21",
+    "hex": "7A21",
     "meanings": [
       "Genellikle tavşan avında kullanılan, uzun bacaklı, çekik karınlı, çok çevik bir tür köpek (Canis familiaris grajus hibernicus)"
     ]
   },
   {
+    "id": 490,
     "word": "TEFE",
-    "hex": "#7EFE",
+    "hex": "7EFE",
     "meanings": ["Dokuma tezgâhında tarağı tutan ağaç veya metal parça"]
   },
   {
+    "id": 491,
     "word": "TEST",
-    "hex": "#7E57",
+    "hex": "7E57",
     "meanings": [
       "Bir kimsenin, bir topluluğun doğal veya sonradan kazanılmış yeteneklerini, bilgi ve becerilerini ölçmeye ve anlamaya yarayan sınama",
       "Doğru cevabın seçenekler arasından bulunmasına dayanan bir sınav türü",
@@ -3260,55 +3747,65 @@
     ]
   },
   {
+    "id": 492,
     "word": "TEŞT",
-    "hex": "#7E57",
+    "hex": "7E57",
     "meanings": ["Çamaşır leğeni"]
   },
   {
+    "id": 493,
     "word": "TİFO",
-    "hex": "#71F0",
+    "hex": "71F0",
     "meanings": [
       "Kirli sularda, bu sularla sulanmış sebzelerde bulunan, mikroplarla oluşan, ortalama üç hafta süren, ateşli ve tehlikeli bir bağırsak hastalığı, karahumma"
     ]
   },
   {
+    "id": 494,
     "word": "TOST",
-    "hex": "#7057",
+    "hex": "7057",
     "meanings": ["İçine peynir, sucuk vb. konularak özel makinesiyle gevretilip kızartılmış ekmek"]
   },
   {
+    "id": 495,
     "word": "TOTO",
-    "hex": "#7070",
+    "hex": "7070",
     "meanings": ["Kıç, popo", "Spor toto"]
   },
   {
+    "id": 496,
     "word": "ZAAF",
-    "hex": "#2AAF",
+    "hex": "2AAF",
     "meanings": ["Düşkünlük", "İrade zayıflığı", "Eksiklik, yetersizlik"]
   },
   {
+    "id": 497,
     "word": "ZADE",
-    "hex": "#2ADE",
+    "hex": "2ADE",
     "meanings": ["Oğul, evlat", "Doğmuş"]
   },
   {
+    "id": 498,
     "word": "ZAİT",
-    "hex": "#2A17",
+    "hex": "2A17",
     "meanings": ["Çoğaltan, artıran", "Gereksiz, fazla", "Artı (+)"]
   },
   {
+    "id": 499,
     "word": "ZATİ",
-    "hex": "#2A71",
+    "hex": "2A71",
     "meanings": ["Zaten", "Kendine özgü, kişiye ilişkin, kişisel, özel", "Özünlü"]
   },
   {
+    "id": 500,
     "word": "ZAZA",
-    "hex": "#2A2A",
+    "hex": "2A2A",
     "meanings": ["Ön Asya'da yaşayan bir topluluk ve bu topluluktan olan kimse"]
   },
   {
+    "id": 501,
     "word": "ZİFT",
-    "hex": "#21F7",
+    "hex": "21F7",
     "meanings": [
       "Katran ve diğer organik maddelerin buharlaşmasından veya damıtılmasından elde edilen, kolay kırılan, az ısı ile eriyen, katı, siyah, parlak madde, karasakız"
     ]
