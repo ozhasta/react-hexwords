@@ -14,11 +14,18 @@ html {
 body {
   font-family: "Courier New", Courier, monospace;
   font-weight: bold;
-  text-align: center;
+  width: calc(100vw - 20px);
+}
+
+@media only screen and (min-width: 1025px) {
+  body {
+    width: calc(100vw - 20px);
+  }
 }
 
 .App {
   padding: 4vh 5vw;
+  text-align: center;
 }
 
 .color-container {
@@ -36,16 +43,7 @@ body {
   background-color: inherit;
   color: inherit;
   font-size: 1.5rem;
-}
-
-dialog {
-  max-width: 90vw;
-  border: 1px solid black;
-}
-
-dialog::backdrop {
-  background: black;
-  opacity: 0.5;
+  cursor: help;
 }
 
 /* color container */

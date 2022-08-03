@@ -1,0 +1,95 @@
+.modal {
+  text-align: left;
+  position: fixed;
+  z-index: 100;
+  padding: 10vh 10vw;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+/* Modal Content */
+.modal-content {
+  position: relative;
+  background-color: #fefefe;
+  border: 1px solid #888;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+  -webkit-animation-name: fadein;
+  -webkit-animation-duration: 0.25s;
+  animation-name: fadein;
+  animation-duration: 0.25s;
+  height: 80vh;
+}
+
+.modal li {
+  margin-bottom: 0.4rem;
+}
+
+.modal-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem 1rem;
+  background-color: #5cb85c;
+  color: white;
+  height: 2.8rem;
+}
+
+.modal-body {
+  padding: 0.5rem 1rem;
+  max-height: calc(100% - 2.8rem);
+  overflow-y: auto;
+}
+
+.modal-footer {
+  padding: 0.5rem 1rem;
+  background-color: #5cb85c;
+  color: white;
+}
+
+/* .modal-title {
+  align-self: center;
+  align-content: center;
+  justify-self: center;
+  text-align: center;
+} */
+
+/* Close Button */
+.close {
+  color: white;
+  font-size: 1.7rem;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+  /* width: 10%; */
+}
+
+/* Animation */
+/* @-webkit-keyframes fadein {
+  from {
+    transform: scale(0.2);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+} */
+
+@keyframes fadein {
+  from {
+    transform: scale(0.2);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}

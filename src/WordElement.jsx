@@ -1,9 +1,15 @@
-import { useState } from "react"
 import lightOrDark from "./utils/lightOrDark"
 import clipboardWhite from "./images/clipboard-white.png"
 import clipboardBlack from "./images/clipboard-black.png"
 
-export default function WordElement({ hex, word, meanings, handleColorChange, handleDialog }) {
+export default function WordElement({ hex, word, setSelectedColor, handleModal }) {
+  function handleColorChange(e) {
+    // console.log(e.target)
+    if (e.target.dataset.color) {
+      setSelectedColor(e.target.dataset.color)
+    }
+  }
+
   function removeAlphaFrom(hex) {
     // Color length 3 or 6? This color has no alpha, return it as is
     if (hex.length === 3 || hex.length === 6) return hex
@@ -36,7 +42,7 @@ export default function WordElement({ hex, word, meanings, handleColorChange, ha
       }}
     >
       <div className="color-info">
-        <button onClick={handleDialog} data-hex={hex} className="color-info-btn" title="info">
+        <button onClick={handleModal} data-hex={hex} className="color-info-btn" title="info">
           🛈
         </button>
       </div>
