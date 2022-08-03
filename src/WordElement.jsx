@@ -1,7 +1,15 @@
-import { useState } from "react"
 import lightOrDark from "./utils/lightOrDark"
+import clipboardWhite from "./images/clipboard-white.png"
+import clipboardBlack from "./images/clipboard-black.png"
 
-export default function WordElement({ hex, word, meanings, handleColorChange, handleDialog }) {
+export default function WordElement({ hex, word, setSelectedColor, handleModal }) {
+  function handleColorChange(e) {
+    // console.log(e.target)
+    if (e.target.dataset.color) {
+      setSelectedColor(e.target.dataset.color)
+    }
+  }
+
   function removeAlphaFrom(hex) {
     // Color length 3 or 6? This color has no alpha, return it as is
     if (hex.length === 3 || hex.length === 6) return hex
@@ -21,6 +29,7 @@ export default function WordElement({ hex, word, meanings, handleColorChange, ha
 
   const hexColorWithoutAlpha = removeAlphaFrom(hex)
   const whiteOrBlack = lightOrDark(hexColorWithoutAlpha)
+  const clipboardImageSrc = whiteOrBlack === "FFF" ? clipboardWhite : clipboardBlack
 
   return (
     <div
@@ -33,7 +42,7 @@ export default function WordElement({ hex, word, meanings, handleColorChange, ha
       }}
     >
       <div className="color-info">
-        <button onClick={handleDialog} data-hex={hex} className="color-info-btn" title="info">
+        <button onClick={handleModal} data-hex={hex} className="color-info-btn" title="info">
           🛈
         </button>
       </div>
@@ -43,12 +52,7 @@ export default function WordElement({ hex, word, meanings, handleColorChange, ha
         <div className="color-word">{word}</div>
       </div>
       <div className="clipboard-btn">
-        <img
-          className="clipboard-img"
-          src={`clipboard-${whiteOrBlack}.png`}
-          alt="copy"
-          title="copy"
-        />
+        <img className="clipboard-img" src={`${clipboardImageSrc}`} alt="copy" title="copy" />
       </div>
     </div>
   )
