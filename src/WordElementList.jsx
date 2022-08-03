@@ -1,35 +1,41 @@
 import { useState } from "react"
-import wordsJson from "./wordsWithMeanings.json"
+import wordsData from "./wordsWithMeanings.json"
 import WordElement from "./WordElement"
-import ColorInfoDialog from "./ColorInfoDialog"
+import ColorInfoModal from "./Components/ColorInfoModal"
 
-export default function WordElements({ handleColorChange }) {
-  const [dialog, setDialog] = useState({
-    selected: "ABE",
-    show: true,
-  })
+export default function WordElements({ setSelectedColor }) {
+  const [colorInfo, setColorInfo] = useState({})
+  const [showModal, setShowModal] = useState(false)
 
-  function handleDialog(e) {
-    setDialog((prevDialog) => ({
-      ...prevDialog,
-      selected: e.target.dataset.hex,
-      show: true,
-    }))
+  function handleModal(id) {
+    const [selectedWordElement] = wordsData.filter((word) => word.id === id)
+
+    setColorInfo(selectedWordElement)
+    setShowModal(true)
+
+    // disables body scrollbars while modal is shown
+    document.body.style.overflow = "hidden"
   }
 
-  const mappedWordElements = wordsJson.map((element) => {
-    const { id, hex, word, meanings } = element
+  const mappedWordElements = wordsData.map((element) => {
+    const { id, hex, word } = element
     return (
       <WordElement
         key={id}
         hex={hex}
         word={word}
-        meanings={meanings}
-        handleColorChange={handleColorChange}
-        handleDialog={(e) => handleDialog(e)}
+        // meanings={meanings}
+        setSelectedColor={setSelectedColor}
+        handleModal={() => handleModal(id)}
+        setShowModal={(e) => setShowModal(e, id)}
       />
     )
   })
 
-  return <div className="colors-grid">{mappedWordElements}</div>
+  return (
+    <>
+      {showModal && <ColorInfoModal info={colorInfo} setShowModal={setShowModal} />}
+      <div className="colors-grid">{mappedWordElements}</div>
+    </>
+  )
 }
