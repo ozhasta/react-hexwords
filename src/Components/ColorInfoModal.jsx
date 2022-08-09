@@ -1,56 +1,71 @@
+import { useEffect, useState } from "react"
 import "./ColorInfoModal.css"
 
-export default function ColorInfoModal({ info, setShowModal }) {
-  const { word, hex, meanings } = info
+export default function ColorInfoModal({ element, hexColorWithoutAlpha, setShowModal }) {
+  const { word, hex, meanings } = element
+  const [colorFormats, setColorFormats] = useState(null)
+
+  // Meanings array not a moving part, it is safe to use index as a key prop
+  const meaningsMapped = meanings.map((meaning, i) => <li key={i}>{meaning}</li>)
+
+  // Dynamic styles
+  const modalHeaderStyle = { backgroundColor: `#${hexColorWithoutAlpha}` }
+  const colorPreviewStyle = {
+    backgroundColor: `#${hexColorWithoutAlpha}`,
+  }
+
   function closeModal(e) {
     if (e.target !== e.currentTarget) return
     setShowModal(false)
-
-    // enables body scrollbars while modal is hidden
-    document.body.style.overflow = "unset"
   }
 
+  useEffect(() => {
+    const fetchData = async () => {
+      const res = await fetch(`https://www.thecolorapi.com/id?hex=${hexColorWithoutAlpha}`)
+      const colorData = await res.json()
+      setColorFormats(colorData)
+    }
+
+    fetchData()
+  }, [hex])
+
   return (
-    <div className="modal" onClick={(e) => closeModal(e)}>
-      <div className="modal-content">
-        <div className="modal-header">
-          <h2 className="modal-tittle">{word}</h2>
-          <span className="close" onClick={(e) => closeModal(e)}>
+    <aside className="modal" onClick={(e) => closeModal(e)}>
+      <div className="modal__content">
+        <section className="modal__header" style={modalHeaderStyle}>
+          <h2 className="modal__tittle">
+            {word} &#10140; #{hex}
+          </h2>
+          <span className="modal__close-btn" onClick={(e) => closeModal(e)}>
             &times;
           </span>
-        </div>
-        <div className="modal-body">
-          <p>Hex: {hex}</p>
-          <h3>Anlamlar:</h3>
-          <ol>
-            {meanings.map((meaning) => (
-              <li>{meaning}</li>
-            ))}
-          </ol>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo ducimus assumenda fugit
-          eveniet, molestias facilis vel repellendus? Magni quisquam laudantium corporis doloribus
-          non nesciunt, nisi dolores eveniet, tempora aperiam veniam voluptas nemo necessitatibus
-          fuga laborum. Enim ipsam aliquid consequatur? Iste recusandae architecto reprehenderit
-          aperiam reiciendis consequuntur deleniti beatae eveniet. Eos unde quae laboriosam veniam
-          et! Ducimus quod eaque odit minima alias inventore cumque, corporis voluptatibus suscipit.
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vel quis, suscipit commodi saepe
-          quisquam corporis voluptas laudantium maiores quo ipsam, praesentium quae obcaecati et hic
-          eligendi fugiat doloribus, impedit labore odio perferendis similique.lorem120 Lorem ipsum
-          dolor sit amet consectetur adipisicing elit. Dicta nesciunt inventore accusantium ratione
-          quo earum vel eveniet consectetur minus aliquid vitae ducimus quibusdam magni aut enim
-          harum numquam, repudiandae, molestias nisi maxime? Error mollitia quia nemo veritatis cum
-          magnam voluptate unde officia minus! Dolorem magni sed perferendis nihil hic quos, vitae
-          corrupti recusandae laborum quidem nostrum eum neque eos dignissimos porro soluta, quod
-          veniam ullam, dicta deleniti unde. Distinctio, necessitatibus dolorum veritatis porro
-          quibusdam maxime vero, accusamus neque minima sed voluptatem nostrum explicabo velit
-          laboriosam eveniet ea eligendi tempora blanditiis asperiores aliquam animi, sunt ducimus
-          eos. Obcaecati, facilis sunt reiciendis quidem officiis optio accusantium! Cum nam
-          voluptate ab dolorum quidem fuga, rem eum optio neque iure at, officiis mollitia modi?
-        </div>
-        {/* <div className="modal-footer">
-          <button onClick={() => closeModal(e)}>Kapat</button>
-        </div> */}
+        </section>
+
+        <section className="modal__body">
+          <h3>Kelimenin anlamları:</h3>
+          <ol>{meaningsMapped}</ol>
+          <h3>Rengin ön izlemesi:</h3>
+
+          <div className="modal__color-preview-container">
+            <div className="modal__color-preview" style={colorPreviewStyle}></div>
+          </div>
+
+          {colorFormats && (
+            <>
+              <div className="modal__color-usage">
+                <h3>Rengin kullanımı:</h3>
+                <p>HEX: #{hex}</p>
+                <p>RGB: {colorFormats.rgb.value}</p>
+                <p>HSL: {colorFormats.hsl.value} </p>
+                <p>CMYK: {colorFormats.cmyk.value}</p>
+              </div>
+              <small>
+                Not: Rengin ön izlemesinde ve kullanımında transparanlık göz ardı edilmiştir.
+              </small>
+            </>
+          )}
+        </section>
       </div>
-    </div>
+    </aside>
   )
 }

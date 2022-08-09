@@ -1,23 +1,40 @@
-import { useState } from "react"
-import WordElementList from "./WordElementList"
+import { useState, useEffect } from "react"
+import WordElementList from "./Components/WordElementList"
+import SearchBar from "./Components/SearchBar"
+
 import lightOrDark from "./utils/lightOrDark"
+import removeAlphaFrom from "./utils/removeAlphaFrom"
+import browserTheme from "./utils/browserTheme"
+
+import wordsData from "./wordsWithMeanings.json"
 
 function App() {
   const [selectedColor, setSelectedColor] = useState("FFF")
+  const hexColorWithoutAlpha = removeAlphaFrom(selectedColor)
+  const whiteOrBlack = lightOrDark(hexColorWithoutAlpha)
+  const [wordElements, setWordElements] = useState(wordsData)
 
-  // console.log("render")
+  useEffect(() => {
+    browserTheme(hexColorWithoutAlpha, whiteOrBlack)
+  }, [selectedColor])
 
   return (
     <div
       className="App"
-      style={{ backgroundColor: `#${selectedColor}`, color: `#${lightOrDark(selectedColor)}` }}
+      style={{
+        backgroundColor: `#${hexColorWithoutAlpha}`,
+        color: `#${whiteOrBlack}`,
+      }}
     >
       <header>
         <h1>TURKISH HEXWORDS</h1>
-        <h2>Akılda kalıcı ve #CAFCAF'lı renkler varken, neden rastgele renk seçiyorsunuz ki?</h2>
-        <input placeholder="Renk veya kelime ara" type="text" name="search-word" id="search-word" />
+        <h2>
+          Akılda kalıcı ve <span className="cafcaf">#CAFCAF</span>'lı renkler varken, neden rastgele
+          renk seçiyorsunuz ki?
+        </h2>
       </header>
-      <WordElementList setSelectedColor={setSelectedColor} />
+      <SearchBar />
+      <WordElementList wordElements={wordElements} setSelectedColor={setSelectedColor} />
     </div>
   )
 }
