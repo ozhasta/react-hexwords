@@ -1,5 +1,4 @@
 import { useEffect, useState } from "react"
-import "./ColorInfoModal.css"
 
 export default function ColorInfoModal({ element, hexColorWithoutAlpha, setShowModal }) {
   const { word, hex, meanings } = element

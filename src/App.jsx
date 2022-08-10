@@ -20,17 +20,17 @@ function App() {
 
   return (
     <div
-      className="App"
+      className="app"
       style={{
         backgroundColor: `#${hexColorWithoutAlpha}`,
         color: `#${whiteOrBlack}`,
       }}
     >
-      <header>
+      <header className="app-header">
         <h1>TURKISH HEXWORDS</h1>
         <h2>
-          Akılda kalıcı ve <span className="cafcaf">#CAFCAF</span>'lı renkler varken, neden rastgele
-          renk seçiyorsunuz ki?
+          Akılda kalıcı ve <span className="app-header--tinted-word">#CAFCAF</span>'lı renkler
+          varken, neden rastgele renk seçiyorsunuz ki?
         </h2>
       </header>
       <SearchBar />

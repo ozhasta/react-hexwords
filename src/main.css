@@ -13,6 +13,7 @@
   --barTrackBgColor: #fff;
 }
 
+/* Initial values for scrollbar colors, then changing in JS. */
 *::-webkit-scrollbar {
   width: var(--barWidth);
   height: var(--barWidth);
@@ -38,21 +39,21 @@ body {
 /****************************
 Component App
 *****************************/
-.App {
+.app {
   padding: 4vh 5vw;
   text-align: center;
 }
 
-header > h1 {
+.app-header > h1 {
   font-size: 1.6rem;
 }
 
-header > h2 {
+.app-header > h2 {
   margin-top: 1rem;
   font-size: 1.3rem;
 }
 
-span.cafcaf {
+.app-header--tinted-word {
   background-color: #cafcaf;
   color: black;
 }
@@ -102,22 +103,38 @@ Component WordElementList
   cursor: copy;
 }
 
-.color-box__clipboard-img {
+.color-box__clipboard-btn-container {
   height: 1.5rem;
 }
 
 /*********************************
 Component SearchBar
 *********************************/
-#search-word {
+.search {
+  display: flex;
+  position: relative;
+  max-width: min(30rem, 100%);
+}
+
+.search__input {
+  width: 100%;
+  min-height: 2.3rem;
   margin: 1rem;
-  width: min(30rem, 70%);
-  display: block;
   box-shadow: 0 0 0.7rem rgba(0, 0, 0, 0.3);
-  outline: 0;
-  /* border: 1px solid #f0f; */
   border-radius: 2rem;
-  padding: 0.5rem 1rem;
+  padding: 0.6rem 1.2rem;
+  padding-left: 2.7rem;
+}
+
+.search__button {
+  /* width: 1rem; */
+  /* height: 1rem; */
+  position: absolute;
+  margin: 1rem;
+  left: 1rem;
+  bottom: 10px;
+  top: 10px;
+  background-color: transparent;
 }
 
 /*********************************
@@ -198,6 +215,7 @@ Component ColorInfoModal
   color: #808080;
 }
 
+/* Modal Fade-in Animation */
 @-webkit-keyframes fade-in {
   from {
     transform: scale(0);
