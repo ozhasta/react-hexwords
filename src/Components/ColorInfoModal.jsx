@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react"
 
-export default function ColorInfoModal({ element, hexColorWithoutAlpha, setShowModal }) {
-  const { word, hex, meanings } = element
+export default function ColorInfoModal({ element, setShowModal }) {
+  const { word, hex, hexColorWithoutAlpha, meanings } = element
   const [colorFormats, setColorFormats] = useState(null)
 
   // Meanings array not a moving part, it is safe to use index as a key prop
@@ -49,20 +49,25 @@ export default function ColorInfoModal({ element, hexColorWithoutAlpha, setShowM
             <div className="modal__color-preview" style={colorPreviewStyle}></div>
           </div>
 
-          {colorFormats && (
-            <>
-              <div className="modal__color-usage">
-                <h3>Rengin kullanımı:</h3>
-                <p>HEX: #{hex}</p>
-                <p>RGB: {colorFormats.rgb.value}</p>
-                <p>HSL: {colorFormats.hsl.value} </p>
-                <p>CMYK: {colorFormats.cmyk.value}</p>
-              </div>
-              <small>
-                Not: Rengin ön izlemesinde ve kullanımında transparanlık göz ardı edilmiştir.
-              </small>
-            </>
-          )}
+          <>
+            <div className="modal__color-usage">
+              <h3>Rengin kullanımı:</h3>
+              <p>HEX: #{hex}</p>
+              {colorFormats ? (
+                <>
+                  <p>RGB: {colorFormats.rgb.value}</p>
+                  <p>HSL: {colorFormats.hsl.value} </p>
+                  <p>CMYK: {colorFormats.cmyk.value}</p>
+                </>
+              ) : (
+                <p>Yükleniyor...</p>
+              )}
+            </div>
+            <small>
+              Not: Transparan renkler için; rengin ön izlemesi ve kullanımı bölümlerinde,
+              transparanlık göz ardı edilmiştir.
+            </small>
+          </>
         </section>
       </div>
     </aside>

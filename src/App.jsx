@@ -1,39 +1,63 @@
-import { useState, useEffect } from "react"
+import { useState, useEffect, useMemo } from "react"
+// Components
 import WordElementList from "./Components/WordElementList"
 import SearchBar from "./Components/SearchBar"
-
+// Utils
 import lightOrDark from "./utils/lightOrDark"
 import removeAlphaFrom from "./utils/removeAlphaFrom"
 import browserTheme from "./utils/browserTheme"
-
-import wordsData from "./wordsWithMeanings.json"
+// Data
+import data from "./wordsWithMeanings.json"
 
 function App() {
-  const [selectedColor, setSelectedColor] = useState("FFF")
-  const hexColorWithoutAlpha = removeAlphaFrom(selectedColor)
-  const whiteOrBlack = lightOrDark(hexColorWithoutAlpha)
-  const [wordElements, setWordElements] = useState(wordsData)
+  // useMemo hook isn't essential here, because useMemo reducing computational power (CPU) usage,
+  // but consuming memory (RAM). This function mimicking API response and mapping 500+ object
+  // kinda heavy for every render, "candidate for demonstrating" useMemo hook usage.
+  const wordElementsMapped = useMemo(() => {
+    return data.map(({ id, word, hex, meanings }) => {
+      const hexColorWithoutAlpha = removeAlphaFrom(hex)
+      const whiteOrBlack = lightOrDark(hexColorWithoutAlpha)
+      console.log("words")
+      return {
+        id,
+        word,
+        hex,
+        hexColorWithoutAlpha,
+        whiteOrBlack,
+        meanings,
+      }
+    })
+  }, [data])
+
+  const [selectedColor, setSelectedColor] = useState({})
+  const [wordElements, setWordElements] = useState(wordElementsMapped)
 
   useEffect(() => {
-    browserTheme(hexColorWithoutAlpha, whiteOrBlack)
+    browserTheme(selectedColor.hexColorWithoutAlpha, selectedColor.whiteOrBlack)
   }, [selectedColor])
 
   return (
     <div
       className="app"
       style={{
-        backgroundColor: `#${hexColorWithoutAlpha}`,
-        color: `#${whiteOrBlack}`,
+        backgroundColor: `#${selectedColor.hexColorWithoutAlpha}`,
+        color: `#${selectedColor.whiteOrBlack}`,
       }}
     >
       <header className="app-header">
         <h1>TURKISH HEXWORDS</h1>
         <h2>
-          Akılda kalıcı ve <span className="app-header--tinted-word">#CAFCAF</span>'lı renkler
-          varken, neden rastgele renk seçiyorsunuz ki?
+          Akılda kalıcı ve{" "}
+          <span className="app-header--tinted-word" title="Gösterişli, şatafatlı.">
+            #CAFCAF
+          </span>
+          'lı renkler varken, neden rastgele renk seçiyorsunuz ki?
         </h2>
       </header>
-      <SearchBar />
+      <div className="app__searchbar-container">
+        <SearchBar wordElementsMapped={wordElementsMapped} setWordElements={setWordElements} />
+        <div className="app__result-count">Bulunan renk: {wordElements?.length}</div>
+      </div>
       <WordElementList wordElements={wordElements} setSelectedColor={setSelectedColor} />
     </div>
   )

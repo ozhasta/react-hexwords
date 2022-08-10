@@ -42,6 +42,11 @@ Component App
 .app {
   padding: 4vh 5vw;
   text-align: center;
+  min-height: 100vh;
+}
+
+.app-header {
+  margin-bottom: 0.75rem;
 }
 
 .app-header > h1 {
@@ -56,6 +61,20 @@ Component App
 .app-header--tinted-word {
   background-color: #cafcaf;
   color: black;
+  cursor: help;
+}
+
+.app__searchbar-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+@media only screen and (min-width: 768px) {
+  .app__searchbar-container {
+    flex-direction: row;
+  }
 }
 
 /****************************
@@ -66,6 +85,7 @@ Component WordElementList
   grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
   justify-items: center;
   gap: 0.75rem;
+  margin-top: 1rem;
 }
 
 /****************************
@@ -113,11 +133,10 @@ Component SearchBar
 .search {
   display: flex;
   position: relative;
-  max-width: min(30rem, 100%);
 }
 
 .search__input {
-  width: 100%;
+  width: 20rem;
   min-height: 2.3rem;
   margin: 1rem;
   box-shadow: 0 0 0.7rem rgba(0, 0, 0, 0.3);
@@ -126,15 +145,15 @@ Component SearchBar
   padding-left: 2.7rem;
 }
 
-.search__button {
-  /* width: 1rem; */
-  /* height: 1rem; */
+.search__search-button {
   position: absolute;
   margin: 1rem;
   left: 1rem;
   bottom: 10px;
   top: 10px;
   background-color: transparent;
+  width: 1rem;
+  height: 1rem;
 }
 
 /*********************************

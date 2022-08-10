@@ -1,19 +1,15 @@
 import { useState } from "react"
 import ColorInfoModal from "./ColorInfoModal"
-import lightOrDark from "../utils/lightOrDark"
-import removeAlphaFrom from "../utils/removeAlphaFrom"
 
 export default function WordElement({ element, setSelectedColor }) {
-  const { hex, word } = element
+  const { hex, word, hexColorWithoutAlpha, whiteOrBlack } = element
   const [showModal, setShowModal] = useState(false)
-  const hexColorWithoutAlpha = removeAlphaFrom(hex)
-  const whiteOrBlack = lightOrDark(hexColorWithoutAlpha)
   const copyToClipboard = (text) => navigator.clipboard.writeText(text)
 
   return (
     <>
       <div
-        onClick={() => setSelectedColor(hex)}
+        onClick={() => setSelectedColor(element)}
         className="color-box"
         style={{
           backgroundColor: `#${hexColorWithoutAlpha}`,
@@ -49,13 +45,7 @@ export default function WordElement({ element, setSelectedColor }) {
             </svg>
           </div>
         </div>
-        {showModal && (
-          <ColorInfoModal
-            hexColorWithoutAlpha={hexColorWithoutAlpha}
-            element={element}
-            setShowModal={setShowModal}
-          />
-        )}
+        {showModal && <ColorInfoModal element={element} setShowModal={setShowModal} />}
       </div>
     </>
   )

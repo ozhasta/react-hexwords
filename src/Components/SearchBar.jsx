@@ -1,14 +1,18 @@
-export default function SearchBar({ posts, setSearchResults }) {
+export default function SearchBar({ wordElementsMapped, setWordElements }) {
   const handleSubmit = (e) => e.preventDefault()
 
-  function handleSearchChange(e) {
-    if (!e.target.value) return setSearchResults(posts)
+  const handleSearchChange = (e) => {
+    if (!e.target.value) return setWordElements(wordElementsMapped)
+    console.log(e.target.value)
 
-    const resultsArray = posts.filter(
-      (post) => post.title.includes(e.target.value) || post.body.includes(e.target.value)
-    )
+    const results = wordElementsMapped.filter((elem) => {
+      return (
+        elem.word.includes(e.target.value.toLocaleUpperCase("TR")) ||
+        elem.hex.includes(e.target.value.toLocaleUpperCase("TR"))
+      )
+    })
 
-    setSearchResults(resultsArray)
+    setWordElements(results)
   }
 
   return (
@@ -21,7 +25,7 @@ export default function SearchBar({ posts, setSearchResults }) {
           id="search"
           onChange={handleSearchChange}
         />
-        <div className="search__button">
+        <div className="search__search-button">
           <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 490 490">
             <path
               fill="none"
