@@ -1,3 +1,5 @@
+import { SearchIconSVG } from "./SvgIcons"
+
 export default function SearchBar({ wordElementsMapped, setWordElements }) {
   const handleSubmit = (e) => e.preventDefault()
 
@@ -19,22 +21,14 @@ export default function SearchBar({ wordElementsMapped, setWordElements }) {
     <header>
       <form className="search" onSubmit={handleSubmit}>
         <input
-          placeholder="Kelime ara"
+          placeholder="Kelime ya da renk ara..."
           className="search__input"
           type="search"
           id="search"
           onChange={handleSearchChange}
         />
-        <div className="search__search-button">
-          <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 490 490">
-            <path
-              fill="none"
-              stroke="#000"
-              strokeWidth="36"
-              strokeLinecap="round"
-              d="m280,278a153,153 0 1,0-2,2l170,170m-91-117 110,110-26,26-110-110"
-            />
-          </svg>
+        <div className="search__search-icon-container">
+          <SearchIconSVG />
         </div>
       </form>
     </header>

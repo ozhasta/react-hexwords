@@ -17,7 +17,6 @@ function App() {
     return data.map(({ id, word, hex, meanings }) => {
       const hexColorWithoutAlpha = removeAlphaFrom(hex)
       const whiteOrBlack = lightOrDark(hexColorWithoutAlpha)
-      console.log("words")
       return {
         id,
         word,

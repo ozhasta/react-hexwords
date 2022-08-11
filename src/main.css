@@ -89,7 +89,7 @@ Component WordElementList
 }
 
 /****************************
-Component WordElementList
+Component WordElement
 *****************************/
 .color-box {
   display: flex;
@@ -100,31 +100,28 @@ Component WordElementList
   cursor: pointer;
 }
 
-.color-box__info-btn-container {
+.color-box__svg-btn-container {
   display: grid;
   place-items: center;
 }
 
-.color-box__info-btn {
+.color-box__btn {
   background-color: inherit;
   color: inherit;
-  font-size: 1.5rem;
+  width: 2rem;
+  height: 2rem;
+}
+.color-box__info-btn {
   cursor: help;
+}
+
+.color-box__clipboard-btn {
+  cursor: copy;
 }
 
 .color-box__word {
   margin-top: 0.1rem;
   padding-left: 1ch;
-}
-
-.color-box__clipboard-btn {
-  display: grid;
-  place-items: center;
-  cursor: copy;
-}
-
-.color-box__clipboard-btn-container {
-  height: 1.5rem;
 }
 
 /*********************************
@@ -145,15 +142,13 @@ Component SearchBar
   padding-left: 2.7rem;
 }
 
-.search__search-button {
+.search__search-icon-container {
   position: absolute;
   margin: 1rem;
-  left: 1rem;
-  bottom: 10px;
-  top: 10px;
-  background-color: transparent;
-  width: 1rem;
-  height: 1rem;
+  left: 0.6rem;
+  top: 0.2rem;
+  width: 2rem;
+  height: 2rem;
 }
 
 /*********************************
