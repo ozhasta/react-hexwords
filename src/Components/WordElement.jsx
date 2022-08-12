@@ -7,10 +7,22 @@ export default function WordElement({ element, setSelectedColor }) {
   const [showModal, setShowModal] = useState(false)
   const [justCopied, setJustCopied] = useState(false)
   const copyToClipboard = async (text) => await navigator.clipboard.writeText(text)
-  // TODO: Lato font not used yet.
-  function handleClick(text) {
+
+  function handleClickClipboard(text) {
     setJustCopied(true)
     copyToClipboard(text)
+  }
+
+  function handleClickShowModal() {
+    setShowModal(true)
+    const body = document.body
+    body.style.overflow = "hidden"
+  }
+
+  function handleClickHideModal() {
+    setShowModal(false)
+    const body = document.body
+    body.style.overflow = "auto"
   }
 
   useEffect(() => {
@@ -32,7 +44,7 @@ export default function WordElement({ element, setSelectedColor }) {
       >
         <div className="color-box__svg-btn-container">
           <div
-            onClick={() => setShowModal(true)}
+            onClick={handleClickShowModal}
             className="color-box__btn color-box__info-btn"
             title="bilgi"
           >
@@ -46,20 +58,14 @@ export default function WordElement({ element, setSelectedColor }) {
 
         <div
           className="color-box__svg-btn-container"
-          onClick={() => handleClick(`#${hex}`)}
+          onClick={() => handleClickClipboard(`#${hex}`)}
           title="kopyala"
         >
           <div className="color-box__btn color-box__clipboard-btn">
-            {justCopied ? (
-              <>
-                <CheckMarkIconSVG />
-              </>
-            ) : (
-              <ClipboardIconSVG />
-            )}
+            {justCopied ? <CheckMarkIconSVG /> : <ClipboardIconSVG />}
           </div>
         </div>
-        {showModal && <ColorInfoModal element={element} setShowModal={setShowModal} />}
+        {showModal && <ColorInfoModal element={element} setShowModal={handleClickHideModal} />}
       </div>
     </>
   )

@@ -28,19 +28,25 @@ function App() {
     })
   }, [data])
 
-  const [selectedColor, setSelectedColor] = useState({})
+  const [selectedColor, setSelectedColor] = useState({
+    hexColorWithoutAlpha: "CAFCAF",
+    whiteOrBlack: "000",
+  })
   const [wordElements, setWordElements] = useState(wordElementsMapped)
 
   useEffect(() => {
-    browserTheme(selectedColor.hexColorWithoutAlpha, selectedColor.whiteOrBlack)
+    console.log(selectedColor.hexColorWithoutAlpha)
+    if (selectedColor.hexColorWithoutAlpha) {
+      browserTheme(selectedColor.hexColorWithoutAlpha, selectedColor.whiteOrBlack)
+    }
   }, [selectedColor])
 
   return (
     <div
       className="app"
       style={{
-        backgroundColor: `#${selectedColor.hexColorWithoutAlpha}`,
-        color: `#${selectedColor.whiteOrBlack}`,
+        backgroundColor: `#${selectedColor.hexColorWithoutAlpha || "CAFCAF"}`,
+        color: `#${selectedColor.whiteOrBlack || "000"}`,
       }}
     >
       <header className="app-header">
