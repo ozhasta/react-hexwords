@@ -1,11 +1,24 @@
-import { useState } from "react"
+import { useState, useEffect } from "react"
 import ColorInfoModal from "./ColorInfoModal"
-import { ClipboardIconSVG, InfoIconSVG } from "./SvgIcons"
+import { ClipboardIconSVG, InfoIconSVG, CheckMarkIconSVG } from "./SvgIcons"
 
 export default function WordElement({ element, setSelectedColor }) {
   const { hex, word, hexColorWithoutAlpha, whiteOrBlack } = element
   const [showModal, setShowModal] = useState(false)
-  const copyToClipboard = (text) => navigator.clipboard.writeText(text)
+  const [justCopied, setJustCopied] = useState(false)
+  const copyToClipboard = async (text) => await navigator.clipboard.writeText(text)
+  // TODO: Lato font not used yet.
+  function handleClick(text) {
+    setJustCopied(true)
+    copyToClipboard(text)
+  }
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setJustCopied(false)
+    }, 1500)
+    return () => clearTimeout(timer)
+  }, [justCopied])
 
   return (
     <>
@@ -33,11 +46,17 @@ export default function WordElement({ element, setSelectedColor }) {
 
         <div
           className="color-box__svg-btn-container"
-          onClick={() => copyToClipboard(`#${hex}`)}
+          onClick={() => handleClick(`#${hex}`)}
           title="kopyala"
         >
           <div className="color-box__btn color-box__clipboard-btn">
-            <ClipboardIconSVG />
+            {justCopied ? (
+              <>
+                <CheckMarkIconSVG />
+              </>
+            ) : (
+              <ClipboardIconSVG />
+            )}
           </div>
         </div>
         {showModal && <ColorInfoModal element={element} setShowModal={setShowModal} />}

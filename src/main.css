@@ -104,7 +104,9 @@ Component WordElement
   display: grid;
   place-items: center;
 }
-
+.color-box__copied-msg {
+  display: inline;
+}
 .color-box__btn {
   background-color: inherit;
   color: inherit;

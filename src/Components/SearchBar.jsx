@@ -5,7 +5,6 @@ export default function SearchBar({ wordElementsMapped, setWordElements }) {
 
   const handleSearchChange = (e) => {
     if (!e.target.value) return setWordElements(wordElementsMapped)
-    console.log(e.target.value)
 
     const results = wordElementsMapped.filter((elem) => {
       return (
