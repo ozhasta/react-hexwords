@@ -35,20 +35,13 @@ function App() {
   const [wordElements, setWordElements] = useState(wordElementsMapped)
 
   useEffect(() => {
-    console.log(selectedColor.hexColorWithoutAlpha)
     if (selectedColor.hexColorWithoutAlpha) {
       browserTheme(selectedColor.hexColorWithoutAlpha, selectedColor.whiteOrBlack)
     }
   }, [selectedColor])
 
   return (
-    <div
-      className="app"
-      style={{
-        backgroundColor: `#${selectedColor.hexColorWithoutAlpha || "CAFCAF"}`,
-        color: `#${selectedColor.whiteOrBlack || "000"}`,
-      }}
-    >
+    <div className="app">
       <header className="app-header">
         <h1>TURKISH HEXWORDS</h1>
         <h2>

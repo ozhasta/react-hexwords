@@ -17,20 +17,13 @@ export default function WordElement({ element, setSelectedColor }) {
     setShowModal(true)
     const body = document.body
     body.style.overflow = "hidden"
-    body.style.backgroundColor = `#${hexColorWithoutAlpha}`
-  }
-
-  function handleClickHideModal() {
-    setShowModal(false)
-    const body = document.body
-    body.style.overflow = "auto"
-    body.style.backgroundColor = `#${whiteOrBlack}`
   }
 
   useEffect(() => {
     const timer = setTimeout(() => {
       setJustCopied(false)
     }, 1500)
+
     return () => clearTimeout(timer)
   }, [justCopied])
 
@@ -44,12 +37,8 @@ export default function WordElement({ element, setSelectedColor }) {
           color: `#${whiteOrBlack}`,
         }}
       >
-        <div className="color-box__svg-btn-container">
-          <div
-            onClick={handleClickShowModal}
-            className="color-box__btn color-box__info-btn"
-            title="bilgi"
-          >
+        <div className="svg-btn__container">
+          <div onClick={handleClickShowModal} className="svg-btn color-box__info-btn" title="bilgi">
             <InfoIconSVG />
           </div>
         </div>
@@ -59,15 +48,15 @@ export default function WordElement({ element, setSelectedColor }) {
         </div>
 
         <div
-          className="color-box__svg-btn-container"
+          className="svg-btn__container"
           onClick={() => handleClickClipboard(`#${hex}`)}
           title="kopyala"
         >
-          <div className="color-box__btn color-box__clipboard-btn">
+          <div className="svg-btn color-box__clipboard-btn">
             {justCopied ? <CheckMarkIconSVG /> : <ClipboardIconSVG />}
           </div>
         </div>
-        {showModal && <ColorInfoModal element={element} setShowModal={handleClickHideModal} />}
+        {showModal && <ColorInfoModal element={element} setShowModal={setShowModal} />}
       </div>
     </>
   )

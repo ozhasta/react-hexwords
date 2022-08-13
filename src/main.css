@@ -9,14 +9,15 @@
 
 :root {
   --barWidth: 17px;
-  --actualBarColor: #000;
-  --barBackgroundColor: #cafcaf;
-  /* Firefox     Actual Bar (Moving Part)   /   Bar Background */
-  scrollbar-color: var(--actualBarColor) var(--barBackgroundColor);
+  /* Initial values, then changing in JS. */
+  --contrastColor: #000;
+  --mainColor: #cafcaf;
+  /* Firefox */
+  /*           Actual Bar (Moving Part) / Bar Background */
+  scrollbar-color: var(--contrastColor) var(--mainColor);
 }
 
 /* Chrome, EDGE, Safari */
-/* Initial values for scrollbar, then changing in JS. */
 *::-webkit-scrollbar {
   width: var(--barWidth);
   height: var(--barWidth);
@@ -24,17 +25,17 @@
 
 /* Actual Bar (Moving Part) */
 *::-webkit-scrollbar-thumb {
-  background: var(--actualBarColor);
+  background: var(--contrastColor);
 }
 
 /* Bar Background */
 *::-webkit-scrollbar-track {
-  background: var(--barBackgroundColor);
+  background: var(--mainColor);
 }
 
 /* Scrollbar Arrows */
 ::-webkit-scrollbar-button:single-button {
-  background-color: var(--barBackgroundColor);
+  background-color: var(--mainColor);
   display: block;
   border-style: solid;
   height: var(--barWidth);
@@ -44,13 +45,13 @@
 /* Up Arrow */
 ::-webkit-scrollbar-button:single-button:vertical:decrement {
   border-width: 0 calc(var(--barWidth) / 2) var(--barWidth) calc(var(--barWidth) / 2);
-  border-color: transparent transparent var(--actualBarColor) transparent;
+  border-color: transparent transparent var(--contrastColor) transparent;
 }
 
 /* Down Arrow */
 ::-webkit-scrollbar-button:single-button:vertical:increment {
   border-width: var(--barWidth) calc(var(--barWidth) / 2) 0 calc(var(--barWidth) / 2);
-  border-color: var(--actualBarColor) transparent transparent transparent;
+  border-color: var(--contrastColor) transparent transparent transparent;
 }
 
 html {
@@ -61,6 +62,8 @@ html {
 body {
   font-family: "Courier New", Courier, monospace;
   font-weight: bold;
+  background-color: var(--mainColor);
+  color: var(--contrastColor);
 }
 
 /****************************
@@ -70,6 +73,7 @@ Component App
   padding: 4vh 5vw;
   text-align: center;
   min-height: 100vh;
+  min-width: 100%;
 }
 
 .app-header {
@@ -126,19 +130,6 @@ Component WordElement
   cursor: pointer;
 }
 
-.color-box__svg-btn-container {
-  display: grid;
-  place-items: center;
-}
-.color-box__copied-msg {
-  display: inline;
-}
-.color-box__btn {
-  background-color: inherit;
-  color: inherit;
-  width: 2rem;
-  height: 2rem;
-}
 .color-box__info-btn {
   cursor: help;
 }
@@ -155,12 +146,12 @@ Component WordElement
 /*********************************
 Component SearchBar
 *********************************/
-.search {
+.search-bar {
   display: flex;
   position: relative;
 }
 
-.search__input {
+.search-bar__search-input {
   width: 20rem;
   min-height: 2.3rem;
   margin: 1rem;
@@ -170,7 +161,7 @@ Component SearchBar
   padding-left: 2.7rem;
 }
 
-.search__search-icon-container {
+.search-bar__search-icon-container {
   position: absolute;
   margin: 1rem;
   left: 0.6rem;
@@ -210,11 +201,12 @@ Component ColorInfoModal
   line-height: 1.4;
   cursor: initial;
 }
-.modal ol {
+
+.modal__content ol {
   list-style-position: inside;
 }
 
-.modal h3 {
+.modal__content h3 {
   margin: 1rem 0 0.4rem 0;
   font-size: 1.6rem;
 }
@@ -243,23 +235,14 @@ Component ColorInfoModal
   display: inline-block;
   box-shadow: 0 5px 13px 0 rgba(0, 0, 0, 0.2), 0 5px 15px 0 rgba(0, 0, 0, 0.2);
 }
-.modal__color-preview-container > div {
+
+.modal__color-preview {
   min-width: 12rem;
   min-height: 8rem;
 }
 
 .modal__close-btn {
-  font-size: clamp(1rem, 5vw, 1.6rem);
-  transition: 0.3s;
-  color: inherit;
-  font-weight: bold;
-}
-
-.modal__close-btn:hover,
-.modal__close-btn:focus {
-  cursor: pointer;
-  transition: 0.3s;
-  color: #808080;
+  pointer-events: none;
 }
 
 /* Modal Fade-in Animation */
@@ -272,4 +255,20 @@ Component ColorInfoModal
     transform: scale(1);
     opacity: 1;
   }
+}
+
+/*********************************
+Shared Style svg-btn
+*********************************/
+.svg-btn__container {
+  cursor: pointer;
+  display: grid;
+  place-items: center;
+}
+
+.svg-btn {
+  background-color: inherit;
+  color: inherit;
+  width: 2rem;
+  height: 2rem;
 }

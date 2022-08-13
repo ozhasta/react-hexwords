@@ -4,8 +4,8 @@ export default function browserTheme(mainColor, contrastColor) {
   // Changes scrollbar color based on selected color.
   // Only works for supported (Chrome, Firefox) desktop browsers.
   root.style.setProperty("scrollbar-color", `#${contrastColor} #${mainColor}`)
-  root.style.setProperty("--actualBarColor", `#${contrastColor}`)
-  root.style.setProperty("--barBackgroundColor", `#${mainColor}`)
+  root.style.setProperty("--contrastColor", `#${contrastColor}`)
+  root.style.setProperty("--mainColor", `#${mainColor}`)
 
   // Changes browser theme color (around address bar, tab buttons) based on selected color.
   // Only works for supported (Chrome, Safari, Samsung, Mi) mobile browsers.

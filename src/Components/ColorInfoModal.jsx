@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react"
+import { CloseIconSVG } from "./SvgIcons"
 
 export default function ColorInfoModal({ element, setShowModal }) {
   const { word, hex, hexColorWithoutAlpha, meanings } = element
@@ -13,9 +14,11 @@ export default function ColorInfoModal({ element, setShowModal }) {
     backgroundColor: `#${hexColorWithoutAlpha}`,
   }
 
-  function closeModal(e) {
+  function handleClickHideModal(e) {
     if (e.target !== e.currentTarget) return
     setShowModal(false)
+    const body = document.body
+    body.style.overflow = "auto"
   }
 
   useEffect(() => {
@@ -29,15 +32,17 @@ export default function ColorInfoModal({ element, setShowModal }) {
   }, [hex])
 
   return (
-    <aside className="modal" onClick={(e) => closeModal(e)}>
+    <aside className="modal" onClick={(e) => handleClickHideModal(e)}>
       <div className="modal__content">
         <section className="modal__header" style={modalHeaderStyle}>
           <h2 className="modal__tittle">
             {word} &#10140; #{hex}
           </h2>
-          <span className="modal__close-btn" onClick={(e) => closeModal(e)}>
-            &times;
-          </span>
+          <div className="svg-btn__container" onClick={(e) => handleClickHideModal(e)}>
+            <div className="svg-btn modal__close-btn">
+              <CloseIconSVG />
+            </div>
+          </div>
         </section>
 
         <section className="modal__body">

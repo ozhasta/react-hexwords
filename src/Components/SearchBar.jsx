@@ -18,15 +18,14 @@ export default function SearchBar({ wordElementsMapped, setWordElements }) {
 
   return (
     <header>
-      <form className="search" onSubmit={handleSubmit}>
+      <form className="search-bar" onSubmit={handleSubmit}>
         <input
           placeholder="Kelime ya da renk ara..."
-          className="search__input"
+          className="search-bar__search-input"
           type="search"
-          id="search"
           onChange={handleSearchChange}
         />
-        <div className="search__search-icon-container">
+        <div className="search-bar__search-icon-container">
           <SearchIconSVG />
         </div>
       </form>
