@@ -17,6 +17,7 @@ export default function WordElement({ element, setSelectedColor }) {
     setShowModal(true)
     const body = document.body
     body.style.overflow = "hidden"
+    body.style.backgroundColor = `#${whiteOrBlack}`
   }
 
   function handleClickHideModal() {
