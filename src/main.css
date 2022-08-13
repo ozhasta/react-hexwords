@@ -9,8 +9,8 @@
 
 :root {
   --barWidth: 17px;
-  --actualBarColor: #cafcaf;
-  --barBackgroundColor: #000;
+  --actualBarColor: #000;
+  --barBackgroundColor: #cafcaf;
   /* Firefox     Actual Bar (Moving Part)   /   Bar Background */
   scrollbar-color: var(--actualBarColor) var(--barBackgroundColor);
 }
