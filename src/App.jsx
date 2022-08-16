@@ -7,7 +7,7 @@ import lightOrDark from "./utils/lightOrDark"
 import removeAlphaFrom from "./utils/removeAlphaFrom"
 import browserTheme from "./utils/browserTheme"
 // Data
-import data from "./wordsWithMeanings.json"
+import data from "./API/wordsWithMeanings.json"
 
 function App() {
   // useMemo hook isn't essential here, because useMemo reducing computational power (CPU) usage,

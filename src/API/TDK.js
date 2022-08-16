@@ -3,7 +3,7 @@
  * web page and it's API not designed to be used public. For this reason,
  * the words and their meanings have been taken beforehand
  * and transferred to the json file. I don't want to query the API again.
- * But you can see how I did this in this page.
+ * But you can see how I did this in this page blow.
  */
 
 async function getHexLikeWords() {
@@ -19,10 +19,10 @@ async function getHexLikeWords() {
     .map((word) => [
       word,
       word
+        .replace(/[gğ]/g, "6")
         .replace(/[iı]/g, "1")
-        .replace(/[öo]/g, "0")
+        .replace(/[oö]/g, "0")
         .replace(/[sş]/g, "5")
-        .replace(/[ğg]/g, "6")
         .replace(/t/g, "7")
         .replace(/z/g, "2")
         .toLocaleUpperCase("tr"),
@@ -72,3 +72,5 @@ const wordsListArrWithMeanings = await Promise.all(generateWordsListArrWithMeani
 
 // Takes 15 - 20 seconds
 console.log(wordsListArrWithMeanings)
+
+// wordsListArrWithMeanings constant exported as wordsWithMeanings.json
