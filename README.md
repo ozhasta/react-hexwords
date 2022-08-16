@@ -24,7 +24,7 @@ Letters (A-F) and numbers (0-9) used in hexadecimal can provide meaningful words
 ### Why?
 
 - Trying to sharpen my React skills. I used useEffect, useState, useMemo hooks in this project.
-- I started this project via Create React App in this project. After hearing about Vite, I decided to give it a try and migrated the project to Vite.
+- I started this project via Create React App. After hearing about Vite, I decided to give it a try and migrated the project to Vite.
 - Used 2 different API's
   1. [TheColorAPI](https://www.thecolorapi.com/docs)
   2. [Turkish Language Institute (TDK)](https://www.sozluk.gov.tr/)[^1]
@@ -51,4 +51,4 @@ Letters (A-F) and numbers (0-9) used in hexadecimal can provide meaningful words
 - Here is the piece of code that I slightly modified and used in this project to separate the text color from the background color.
   > [lightOrDark.js](https://gist.github.com/stla/00d8d78c7daa8b774c484e5b6f5758ce)
 
-[^1]: sozluk.gov.tr (part of Turkish Language Institute (TDK)) is a government web page and it's API not designed to be used public. For this reason, the words and their meanings have been taken beforehand and transferred to the json file. I don't want to query the API again. But you can see how I did this in the source code. /src/API/TDK.js
+[^1]: sozluk.gov.tr (part of Turkish Language Institute (TDK)) is a government web page and it's API not designed to be used public. For this reason, the words and their meanings have been taken beforehand and transferred to the json file. I don't want to query the API again. But you can see how I did this in the source code. `/src/API/TDK.js`
