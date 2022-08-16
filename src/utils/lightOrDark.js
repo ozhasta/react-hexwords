@@ -16,9 +16,5 @@ export default function lightOrDark(color) {
 
   const hsp = Math.sqrt(0.299 * (r * r) + 0.587 * (g * g) + 0.114 * (b * b))
 
-  if (hsp > 127.5) {
-    return "000"
-  } else {
-    return "FFF"
-  }
+  return hsp > 127.5 ? "000" : "FFF"
 }
