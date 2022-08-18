@@ -8,7 +8,7 @@
 }
 
 :root {
-  --barWidth: 17px;
+  --barSize: 13px;
   /* Initial values, then changing in JS. */
   --contrastColor: #000;
   --mainColor: #cafcaf;
@@ -19,13 +19,15 @@
 
 /* Chrome, EDGE, Safari */
 *::-webkit-scrollbar {
-  width: var(--barWidth);
-  height: var(--barWidth);
+  width: var(--barSize);
+  height: var(--barSize);
 }
 
 /* Actual Bar (Moving Part) */
 *::-webkit-scrollbar-thumb {
   background: var(--contrastColor);
+  border-radius: calc(var(--barSize));
+  height: 10%;
 }
 
 /* Bar Background */
@@ -38,19 +40,19 @@
   background-color: var(--mainColor);
   display: block;
   border-style: solid;
-  height: var(--barWidth);
-  width: var(--barWidth);
+  height: var(--barSize);
+  width: var(--barSize);
 }
 
 /* Up Arrow */
 ::-webkit-scrollbar-button:single-button:vertical:decrement {
-  border-width: 0 calc(var(--barWidth) / 2) var(--barWidth) calc(var(--barWidth) / 2);
+  border-width: 0 calc(var(--barSize) / 2) var(--barSize) calc(var(--barSize) / 2);
   border-color: transparent transparent var(--contrastColor) transparent;
 }
 
 /* Down Arrow */
 ::-webkit-scrollbar-button:single-button:vertical:increment {
-  border-width: var(--barWidth) calc(var(--barWidth) / 2) 0 calc(var(--barWidth) / 2);
+  border-width: var(--barSize) calc(var(--barSize) / 2) 0 calc(var(--barSize) / 2);
   border-color: var(--contrastColor) transparent transparent transparent;
 }
 
