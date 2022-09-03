@@ -38,7 +38,7 @@ Letters (A-F) and numbers (0-9) used in hexadecimal can provide meaningful words
 
 | Command                                                   | Action                                       |
 | :-------------------------------------------------------- | :------------------------------------------- |
-| `git clone https://github.com/b0tm0de/react-hexwords.git` | Clone the repo                               |
+| `git clone https://github.com/ozhasta/react-hexwords.git` | Clone the repo                               |
 | `cd react-hexwords`                                       | Change directory to root of project          |
 | `npm install`                                             | Install dependencies                         |
 | `npm run dev`                                             | Start local development server               |
