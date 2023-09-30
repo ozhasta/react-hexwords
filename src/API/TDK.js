@@ -1,9 +1,9 @@
 /**
- * sozluk.gov.tr (part of Turkish Language Institute (TDK)) is a government
- * web page and it's API not designed to be used public. For this reason,
- * the words and their meanings have been taken beforehand
- * and transferred to the json file. I don't want to query the API again.
- * But you can see how I did this in this page blow.
+ * sozluk.gov.tr (a part of the Turkish Language Institute - TDK) is a
+ * government website, and its API is not designed to be used by the public.
+ * Due to this reason, the words and their meanings have been pre-collected
+ * and transferred to a JSON file. I don't want to make queries to the API
+ * again, but you can see how I accomplished this on the below.
  */
 
 async function getHexLikeWords() {
@@ -20,7 +20,7 @@ async function getHexLikeWords() {
       word,
       word
         .replace(/[gğ]/g, "6")
-        .replace(/[iı]/g, "1")
+        .replace(/[ıi]/g, "1")
         .replace(/[oö]/g, "0")
         .replace(/[sş]/g, "5")
         .replace(/t/g, "7")
@@ -70,7 +70,8 @@ function generateWordsListArrWithMeanings() {
 const hexLikeWordsArray = await getHexLikeWords()
 const wordsListArrWithMeanings = await Promise.all(generateWordsListArrWithMeanings())
 
-// Takes 15 - 20 seconds
+// Takes 15 - 30 seconds
+console.log("Please wait...")
 console.log(wordsListArrWithMeanings)
 
 // wordsListArrWithMeanings constant exported as wordsWithMeanings.json

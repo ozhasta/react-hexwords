@@ -10,9 +10,14 @@ import browserTheme from "./utils/browserTheme"
 import data from "./API/wordsWithMeanings.json"
 
 function App() {
-  // useMemo hook isn't essential here, because useMemo reducing computational power (CPU) usage,
-  // but consuming memory (RAM). This function mimicking API response and mapping 500+ object
-  // kinda heavy for every render, "candidate for demonstrating" useMemo hook usage.
+  /**
+   * useMemo hook isn't essential here, this hook reducing computational
+   * power (CPU) usage, but consuming memory (RAM).
+   * This function mimickingAPI response and mapping over 500+ object.
+   * Kinda heavy for every render, "candidate for demonstrating" useMemo usage.
+   * My local benchmark, performance.now() says, it saving 0.5ms on each render :)
+   */
+
   const wordElementsMapped = useMemo(() => {
     return data.map(({ id, word, hex, meanings }) => {
       const hexColorWithoutAlpha = removeAlphaFrom(hex)

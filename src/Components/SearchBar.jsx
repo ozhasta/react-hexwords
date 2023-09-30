@@ -8,8 +8,8 @@ export default function SearchBar({ wordElementsMapped, setWordElements }) {
 
     const results = wordElementsMapped.filter((elem) => {
       return (
-        elem.word.includes(e.target.value.toLocaleUpperCase("TR")) ||
-        elem.hex.includes(e.target.value.toLocaleUpperCase("TR"))
+        elem.word.includes(e.target.value.toLocaleUpperCase("tr")) ||
+        elem.hex.includes(e.target.value.toLocaleUpperCase("tr"))
       )
     })
 

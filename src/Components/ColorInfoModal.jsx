@@ -53,7 +53,10 @@ export default function ColorInfoModal({ element, setShowModal }) {
           <div className="modal__color-preview-container">
             <div className="modal__color-preview" style={colorPreviewStyle}></div>
           </div>
-
+          <div>
+            Not: Ön izleme bölümünde, rengi görmeyi kolaylaştırmak için, şeffaflık devre dışı
+            bırakılmıştır.
+          </div>
           <>
             <div className="modal__color-usage">
               <h3>Rengin kullanımı:</h3>
@@ -68,10 +71,6 @@ export default function ColorInfoModal({ element, setShowModal }) {
                 <p>Yükleniyor...</p>
               )}
             </div>
-            <small>
-              Not: Transparan renkler için; rengin ön izlemesi ve kullanımı bölümlerinde,
-              transparanlık göz ardı edilmiştir.
-            </small>
           </>
         </section>
       </div>
