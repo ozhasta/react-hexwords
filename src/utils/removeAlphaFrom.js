@@ -1,7 +1,4 @@
 export default function removeAlphaFrom(hex) {
-  // Color length 3 or 6? This color has no alpha, return it as is
-  if (hex.length === 3 || hex.length === 6) return hex
-
   let alphaChannelIndex = hex.length
 
   // Color length 4 ? remove last 1 char, it is alpha channel
