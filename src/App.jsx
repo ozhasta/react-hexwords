@@ -13,7 +13,7 @@ function App() {
   /**
    * useMemo hook isn't essential here, this hook reducing computational
    * power (CPU) usage, but consuming memory (RAM).
-   * This function mimickingAPI response and mapping over 500+ object.
+   * This function mimicking API response and mapping over 500+ object.
    * Kinda heavy for every render, "candidate for demonstrating" useMemo usage.
    * My local benchmark, performance.now() says, it saving 0.5ms on each render :)
    */
